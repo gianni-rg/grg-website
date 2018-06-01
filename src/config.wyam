@@ -1,0 +1,60 @@
+#recipe Blog
+#theme CleanBlog
+
+//#n Wyam.Html
+// #n Wyam.Images
+#n Wyam.SearchIndex
+
+// Normalize the culture for the examples so they produce the same output regardless of system culture
+System.Globalization.CultureInfo.DefaultThreadCurrentCulture  = System.Globalization.CultureInfo.CreateSpecificCulture("en-US");
+
+// Customize your settings and add new ones here
+Settings[Keys.Host] = "gianni.rosagallina.com";
+
+Settings[Keys.DateTimeDisplayCulture] = "en-US";
+Settings[Keys.DateTimeInputCulture] = "en-US";
+
+
+Settings[BlogKeys.Title] = "gianni.rosagallina.com";
+Settings[BlogKeys.Intro] = "Gianni Rosa Gallina's blog";
+Settings[BlogKeys.Description] = "Gianni Rosa Gallina's blog";
+
+Settings[BlogKeys.RdfPath] = "rdf.feed";
+
+
+//Settings[BlogKeys.Image] = "<relPath/image>";
+Settings[BlogKeys.IndexPageSize] = 10;
+Settings[BlogKeys.IndexPaging] = true;
+Settings[BlogKeys.IndexFullPosts] = false;
+Settings[BlogKeys.ArchiveExcerpts] = true;
+Settings[BlogKeys.ArchivePageSize] = 10;
+Settings[BlogKeys.TagPageSize] = 10;
+
+Settings[BlogKeys.IncludeDateInPostPath] = true;
+
+Settings[BlogKeys.ValidateRelativeLinks] = false;
+Settings[BlogKeys.ValidateAbsoluteLinks] = false;
+
+Settings[BlogKeys.MarkdownConfiguration] = "advanced+bootstrap";
+Settings[BlogKeys.MarkdownExtensionTypes] = null;
+
+// Add any pipeline customizations here
+Pipelines.InsertBefore("ValidateLinks","AddPostsMetaAndSearch",
+    Documents("BlogPosts"),
+    Meta("SearchIndexItem", new SearchIndexItem("/" + @doc.String("RelativeFilePath"), @doc.String("Title"), @doc.Content)
+            { Description = @doc.String("Description"), Tags = @doc.String("Tags") })
+);
+
+Pipelines.InsertAfter("AddPostsMetaAndSearch", "SearchIndex",
+	Documents("AddPostsMetaAndSearch"),
+	SearchIndex((FilePath)"assets/stopwords.txt"),
+	WriteFiles((doc,ctx) => string.IsNullOrEmpty(doc.Content) ? null : "assets/js/searchindex.js").UseWriteMetadata(false)
+);
+
+// Prepare thumbnails for each "front-image"
+// Pipelines.Add("Images",
+//   ReadFiles("*").Where(x => x.Contains("images\\") && new[] { ".jpg", ".jpeg", ".gif", ".png"}.Contains(Path.GetExtension(x))),
+// Image()
+//   .SetJpegQuality(100).Resize(400,209).SetSuffix("-thumb"),
+//   WriteFiles("*")
+// );
