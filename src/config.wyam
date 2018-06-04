@@ -39,6 +39,8 @@ Settings[BlogKeys.MarkdownConfiguration] = "advanced+bootstrap";
 Settings[BlogKeys.MarkdownExtensionTypes] = null;
 
 // Add any pipeline customizations here
+//Pipelines["BlogPosts"].Remove("New");
+
 Pipelines.InsertBefore("ValidateLinks","AddPostsMetaAndSearch",
     Documents("BlogPosts"),
     Meta("SearchIndexItem", new SearchIndexItem("/" + @doc.String("RelativeFilePath"), @doc.String("Title"), @doc.Content)

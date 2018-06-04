@@ -50,6 +50,11 @@
         <script src="@Context.GetLink("/assets/js/trianglify.min.js")"></script>
         <script src="@Context.GetLink("/assets/js/Please-compressed.js")"></script>
         <script src="@Context.GetLink("/assets/js/background-check.min.js")"></script>
+        <script src="@Context.GetLink("/assets/js/TweenLite.min.js")"></script>
+        <script src="@Context.GetLink("/assets/js/EasePack.min.js")"></script>
+        <script src="@Context.GetLink("/assets/js/rAF.js")"></script>
+        <script src="@Context.GetLink("/assets/js/dynamic-header.js")"></script>
+        <script src="@Context.GetLink("/assets/js/site.js")"></script>
                 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -97,7 +102,8 @@
                         }
                 }
                 <header class="intro-header" id="intro-header" style="@backgroundImage">
-                        <div class="container">
+                        <canvas id="backgroundCanvas"></canvas>
+                        <div class="container header">
                                 <div class="row">
                                         <div class="col-md-12">
                                                 @if(IsSectionDefined("Header"))
@@ -130,32 +136,12 @@
                 </footer> 
 
                 @Html.Partial("_Scripts")
-                <script>hljs.initHighlightingOnLoad();</script>
+                @*<script>hljs.initHighlightingOnLoad();</script>*@
 
-                @if(Model.String(BlogKeys.Image) == null)
+                @* @if(Model.String(BlogKeys.Image) == null)
                 {
-                        <script type="text/javascript">                
-                                // Header background                        
-                                var colors = Please.make_color({
-                                        colors_returned: 3,
-                                        saturation: .6
-                                });
-                                var t = new Trianglify({
-                                        x_gradient: colors,
-                                        y_gradient: ["#FFFFFF"]
-                                });
-                                var header = document.getElementById("intro-header");
-                                var pattern = t.generate(header.clientWidth, header.clientHeight);
-                                header.setAttribute('style', 'background-image: ' + pattern.dataUrl);                        
-                        </script>
-                }
-
-                <script>
-                        BackgroundCheck.init({
-                                targets: '.intro-header,.navbar',
-                                images: '.intro-header'
-                        });
-                </script>
+                }*@
+                <script id="dsq-count-scr" src="//giannirg.disqus.com/count.js" async></script>
         </body>
 </html>
 
