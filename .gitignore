@@ -331,3 +331,5 @@ ASALocalRun/
 
 # Wyam
 output/*
+/src/config.wyam.dll
+/src/config.wyam.hash
