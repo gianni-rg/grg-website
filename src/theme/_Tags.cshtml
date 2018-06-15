@@ -1,9 +1,14 @@
-Title: All Tags
+Title: {localized.AllTags}
 ---
+@{
+    var language = Context.GetPipelineLanguage(); 
+    var localizedStrings = Context.GetLocalizedResources(language);
+    var tagsPipeline = "Tags_" + language;
+}
 <div class="container-sm-height">
     <div class="row row-sm-height">		
         <div class="col-sm-12 col-sm-height">            
-            @foreach (IDocument tagDocument in Documents[Blog.Tags]
+            @foreach (IDocument tagDocument in Documents[tagsPipeline]
                 .GroupBy(x => x.String(BlogKeys.Tag)).Select(x => x.Where(p => p.Get<int>(Keys.CurrentPage) == 1).First())
                 .OrderByDescending(x => x.Get<int>(Keys.TotalItems)))
             {

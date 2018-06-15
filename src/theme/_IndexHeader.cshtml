@@ -1,14 +1,19 @@
+@{
+    var language = Context.GetPipelineLanguage(); 
+    var localizedStrings = Context.GetLocalizedResources(language);
+}
+
 <div class="site-heading">
-    @if(Context.String(BlogKeys.Description) != null)
+    @if(!string.IsNullOrEmpty(localizedStrings[BlogKeys.Description]))
     {
-        <h1>@Context.String(BlogKeys.Description)</h1>
+        <h1>@localizedStrings[BlogKeys.Description]</h1>
     }
-    @if(Context.String(BlogKeys.Intro) != null)
+    @if(!string.IsNullOrEmpty(localizedStrings[BlogKeys.Intro]))
     {            
-        @if(Context.String(BlogKeys.Description) != null)
+        @if(!string.IsNullOrEmpty(localizedStrings[BlogKeys.Description]))
         {
             <hr class="small">
         }
-        <span class="subheading">@Context.String(BlogKeys.Intro)</span>
+        <span class="subheading">@localizedStrings[BlogKeys.Intro]</span>
     }
 </div>

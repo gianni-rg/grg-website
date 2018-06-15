@@ -1,5 +1,9 @@
-Title: All Tags
+Title: {localized.AllTags}
 ---
+@{
+    var language = Context.GetPipelineLanguage(); 
+    var localizedStrings = Context.GetLocalizedResources(language);
+}
 <div class="container-sm-height">
     <div class="row row-sm-height">
         <div class="col-sm-8 right-border col-sm-height">
@@ -10,13 +14,13 @@ Title: All Tags
                     <li class="previous">                
                         @if(Model.Bool(Keys.HasPreviousPage))
                         {
-                            <a href="@(Context.GetLink(Model.Document(Keys.PreviousPage)))"><span aria-hidden="true">&larr;</span> Newer</a>
+                            <a href="@(Context.GetLink(Model.Document(Keys.PreviousPage)))">@Html.Raw(localizedStrings["NewerPosts"])</a>
                         }                
                     </li>
                     <li class="next">
                         @if(Model.Bool(Keys.HasNextPage))
                         {
-                            <a href="@(Context.GetLink(Model.Document(Keys.NextPage)))">Older <span aria-hidden="true">&rarr;</span></a>
+                            <a href="@(Context.GetLink(Model.Document(Keys.NextPage)))">@Html.Raw(localizedStrings["OlderPosts"])</a>
                         }
                     </li>
                 </ul>
@@ -25,7 +29,7 @@ Title: All Tags
         </div>
 		
         <div class="col-sm-4 col-sm-height">
-            @foreach (IDocument tagDocument in Documents[Blog.Tags]
+            @foreach (IDocument tagDocument in Documents.FromPipeline(Context.Pipeline.Name)
                 .GroupBy(x => x.String(BlogKeys.Tag)).Select(x => x.Where(p => p.Get<int>(Keys.CurrentPage) == 1).First())
                 .OrderByDescending(x => x.Get<int>(Keys.TotalItems)))
             {

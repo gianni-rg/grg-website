@@ -1,6 +1,12 @@
 @model IEnumerable<IDocument>
 
 @{
+    var language = Context.GetPipelineLanguage(); 
+    var localizedStrings = Context.GetLocalizedResources(language);
+    var cultureInfo = new System.Globalization.CultureInfo(localizedStrings["Locale"]);
+}
+
+@{
     foreach (IDocument post in Model)
     {
         string lead = post.String(BlogKeys.Lead);
@@ -13,7 +19,7 @@
                     <h4 class="post-subtitle">@lead</h4>
                 }
             </a>
-            <p class="post-meta">Posted on @(post.Get<DateTime>(BlogKeys.Published).ToLongDateString(Context))</p>      
+            <p class="post-meta">@string.Format(cultureInfo, localizedStrings["PostedOn"], post.Get<DateTime>(BlogKeys.Published))</p>      
             @if(Context.Bool(BlogKeys.ArchiveExcerpts))
             {
                 @Html.Raw(post.String(BlogKeys.Excerpt))

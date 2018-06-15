@@ -1,7 +1,9 @@
-Title: Archive
+Title: {localized.Archive}
 ---
 @{
     Layout = "/_Layout.cshtml";
+    var language = Context.GetPipelineLanguage(); 
+    var localizedStrings = Context.GetLocalizedResources(language);
 }
 
 @{
@@ -20,13 +22,13 @@ Title: Archive
         <li class="previous">                
             @if(Model.Bool(Keys.HasPreviousPage))
             {
-                <a href="@(Context.GetLink(Model.Document(Keys.PreviousPage)))"><span aria-hidden="true">&larr;</span> Newer</a>
+                <a href="@(Context.GetLink(Model.Document(Keys.PreviousPage)))">@Html.Raw(localizedStrings["NewerPosts"])</a>
             }                
         </li>
         <li class="next">
             @if(Model.Bool(Keys.HasNextPage))
             {
-                <a href="@(Context.GetLink(Model.Document(Keys.NextPage)))">Older <span aria-hidden="true">&rarr;</span></a>
+                <a href="@(Context.GetLink(Model.Document(Keys.NextPage)))">@Html.Raw(localizedStrings["OlderPosts"])</a>
             }
         </li>
     </ul>

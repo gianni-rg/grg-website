@@ -1,23 +1,25 @@
 @{
-        string Title = Model.WithoutSettings.String(BlogKeys.Title);
-        string PageTitle = Context.String(BlogKeys.Title) + (string.IsNullOrWhiteSpace(Title) ? string.Empty : " - " + Title);
+    var language = Context.GetPipelineLanguage(); 
+    var localizedStrings = Context.GetLocalizedResources(language);
+    string Title = Model.WithoutSettings.String(BlogKeys.Title);
+    string PageTitle = localizedStrings[BlogKeys.Title] + (string.IsNullOrWhiteSpace(Title) ? string.Empty : " - " + Title);
 }
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="@language">
         <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
 
         <title>@PageTitle</title>
-        <meta name="description" content="@Context.String(BlogKeys.Description)" />
+        <meta name="description" content="@localizedStrings[BlogKeys.Description]" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">        
 
         @if (Context.String(BlogKeys.RssPath) != null) {
-        <link type="application/rss+xml" rel="alternate" title="@Context.String(BlogKeys.Title)" href="@Context.GetLink(Context.String(BlogKeys.RssPath))" />
+        <link type="application/rss+xml" rel="alternate" title="@localizedStrings[BlogKeys.Title]" href="@Context.GetLink(language + "/" + Context.String(BlogKeys.RssPath))" />
         }
         @if (Context.String(BlogKeys.AtomPath) != null) {
-        <link type="application/atom+xml" rel="alternate" title="@Context.String(BlogKeys.Title)" href="@Context.GetLink(Context.String(BlogKeys.AtomPath))" />
+        <link type="application/atom+xml" rel="alternate" title="@localizedStrings[BlogKeys.Title]" href="@Context.GetLink(language + "/" + Context.String(BlogKeys.AtomPath))" />
         }
         <link rel="shortcut icon" href="@Context.GetLink("/favicon.ico")" type="image/x-icon">
         <link rel="icon" href="@Context.GetLink("/favicon.ico")" type="image/x-icon">
@@ -32,9 +34,9 @@
         <link href="@Context.GetLink("/assets/css/override.css")" rel="stylesheet" />
 
 
-        <meta name="application-name" content="@Context.String(BlogKeys.Title)" />
-        <meta name="msapplication-tooltip" content="@Context.String(BlogKeys.Title)" />
-        <meta name="msapplication-starturl" content="@Context.GetLink("/")" />
+        <meta name="application-name" content="@localizedStrings[BlogKeys.Title]" />
+        <meta name="msapplication-tooltip" content="@localizedStrings[BlogKeys.Title]" />
+        <meta name="msapplication-starturl" content="@Context.GetLink("/" + language)" />
 
         <meta property="og:title" content="@PageTitle" />
         @* <meta property="og:image" content="@Blog.Image" /> *@
@@ -74,12 +76,12 @@
                                 <!-- Brand and toggle get grouped for better mobile display -->
                                 <div class="navbar-header page-scroll">
                                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="sr-only">@localizedStrings["ToggleNavigation"]</span>
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
                                         </button>
-                                        <a class="navbar-brand" href="@Context.GetLink("/")">@Context.String(BlogKeys.Title)</a>
+                                        <a class="navbar-brand" href="@Context.GetLink(language + "/")">@localizedStrings[BlogKeys.Title]</a>
                                 </div>
                         
                                 <!-- Collect the nav links, forms, and other content for toggling -->

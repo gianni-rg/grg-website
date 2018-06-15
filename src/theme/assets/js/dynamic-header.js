@@ -113,7 +113,7 @@ function DynamicHeader(targetElement, targetCanvas) {
     }
 
     function scrollCheck() {
-        if (document.body.scrollTop > height) _animateHeader = false;
+        if (document.body.scrollTop > _height) _animateHeader = false;
         else _animateHeader = true;
     }
 

@@ -2,6 +2,12 @@
     @Html.Partial("_IndexHeader")
 }
 
+@{
+    var language = Context.GetPipelineLanguage(); 
+    var localizedStrings = Context.GetLocalizedResources(language);
+    var cultureInfo = new System.Globalization.CultureInfo(localizedStrings["Locale"]);
+}
+
 <div class="row">
     <div class="col-sm-8 right-border">
         @{
@@ -22,7 +28,7 @@
                             <h3 class="post-subtitle">@lead</h3>
                         }
                     </a>
-                    <p class="post-meta">Posted on @(post.Get<DateTime>(BlogKeys.Published).ToLongDateString(Context))</p>
+                    <p class="post-meta">@string.Format(cultureInfo, localizedStrings["PostedOn"], post.Get<DateTime>(BlogKeys.Published))</p>
                     @if(Context.Bool(BlogKeys.IndexFullPosts))
                     {
                         @Html.Raw(post.Content)
@@ -38,25 +44,24 @@
             <li class="previous">                
                 @if(Model.Bool(Keys.HasPreviousPage))
                 {
-                    <a href="@(Context.GetLink(Model.Document(Keys.PreviousPage)))"><span aria-hidden="true">&larr;</span> Newer</a>
+                    <a href="@(Context.GetLink(Model.Document(Keys.PreviousPage)))">@Html.Raw(localizedStrings["NewerPosts"])</a>
                 }                
             </li>
             <li class="next">
                 @if(Model.Bool(Keys.HasNextPage))
                 {
-                    <a href="@(Context.GetLink(Model.Document(Keys.NextPage)))">Older <span aria-hidden="true">&rarr;</span></a>
+                    <a href="@(Context.GetLink(Model.Document(Keys.NextPage)))">@Html.Raw(localizedStrings["OlderPosts"])</a>
                 }
             </li>
         </ul>
     </div>
     <div class="col-sm-4 sidebar">
         <hr class="visible-xs-block" />
-
-        @if(Documents[Blog.Tags].Any())
+        @if(Documents.FromPipeline("Tags_" + language).Any())
         {
-            <h5>Tags</h5>
+            <h5>@Html.Raw(localizedStrings["Tags"])</h5>
             <div>
-                @foreach (IDocument tagDocument in Documents[Blog.Tags]
+                @foreach (IDocument tagDocument in Documents.FromPipeline("Tags_" + language)
                     .GroupBy(x => x.String(BlogKeys.Tag)).Select(x => x.Where(p => p.Get<int>(Keys.CurrentPage) == 1).First())
                     .OrderByDescending(x => x.Get<int>(Keys.TotalItems)).Take(10))
                 {
@@ -67,7 +72,7 @@
             </div>
             <ul class="pager">
                 <li class="next">
-                    <a href="/tags">View All Tags &rarr;</a>
+                    <a href="@Context.GetLink(language + "/" + localizedStrings[BlogKeys.TagsPath])">@Html.Raw(localizedStrings["ViewAllTags"])</a>
                 </li>
             </ul>
         }
@@ -75,9 +80,9 @@
         @if(!Context.Bool(BlogKeys.IndexPaging))
         {
             <hr />
-            <h5>Older Posts</h5>
+            <h5>@Html.Raw(localizedStrings["OlderPostsTitle"])</h5>
             <ul class="list-unstyled">
-                @foreach(IDocument post in Documents[Blog.BlogPosts].Skip(Model.DocumentList(Keys.PageDocuments).Count).Take(4))
+                @foreach(IDocument post in Documents.FromPipeline("BlogPosts_" + language).Skip(Model.DocumentList(Keys.PageDocuments).Count).Take(4))
                 {        
                     // TODO: The skip above needs to line up with the number of posts on the index page
                     // Also turn this section off if the index is paged
@@ -88,7 +93,7 @@
             {
                 <ul class="pager">
                     <li class="next">
-                        <a href="@Context.GetLink(Context.String(BlogKeys.PostsPath))">Archive &rarr;</a>
+                        <a href="@Context.GetLink(language + "/" + localizedStrings[BlogKeys.PostsPath])">@Html.Raw(localizedStrings["PostsArchive"])</a>
                     </li>
                 </ul>
             }

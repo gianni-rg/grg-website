@@ -10,7 +10,7 @@
 #>
 
 Param(
-    $target = "",
+    $target = "Preview",
     $websiteRoot = '.\src',
     $outputPath = '..\output',
     $previewPort = '5080',
@@ -29,13 +29,13 @@ $helpMessage =
 @"
 Usage: .\build.ps1 -target [Init|Preview|Release] [options]
 Options:
-    -target      : choose which target to build (Init, Preview or Release)
+    -target      : choose which target to build (Init, Preview or Release). Default: Preview
     -websiteRoot : where website source files are stored. Default: .\src
     -outputPath  : where to store generated website files. Default: .\output
     -previewPort : built-in webserver port to host preview website. Default: 5080
     -help        : prints this message
 
-If you don't know which options to use, just launch the script with "-target Preview".
+If you don't know which options to use, just launch the script without parameters.
 It will generate the website using Wyam, start the built-in preview server on http://localhost:5080
 and will launch Visual Studio Code to edit website source files, in order to immediately
 see the results by refreshing the browser.
