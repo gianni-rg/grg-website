@@ -3,3 +3,75 @@
   position: absolute;
   z-index: 0;
 }
+
+/* footer {
+  padding-top: 0px;
+} */
+
+.language-bar a img:hover, .language-bar a img:focus {
+  cursor: pointer;
+}
+
+.language-bar img {
+  width: 40px;
+}
+
+.language-bar {
+  text-align: center;
+  margin-top: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .language-bar {
+    text-align: left;
+    margin-top: 0px;
+  }
+}
+
+.disclaimer {
+  background: #000b33;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  font-style: italic;
+  margin: 0px;
+  padding: 5px;
+}
+
+footer .copyright {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px; 
+    margin-bottom: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  footer .copyright {
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 0;
+  }
+}
+
+.cert-area {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.cert-area img {
+  width: 165px;
+  margin: 10px;
+}
+
+.sidebar-share {
+  text-align: center;
+}
+
+.share-img {
+  width: 55px;
+}
+
+.sidebar h5
+{
+  margin-top: 20px;
+}

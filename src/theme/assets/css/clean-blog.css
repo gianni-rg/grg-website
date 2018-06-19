@@ -26,10 +26,10 @@ a:hover,
 a:focus {
   color: #337ab7;
 }
-a img:hover,
+/* a img:hover,
 a img:focus {
   cursor: zoom-in;
-}
+} */
 blockquote {
   color: #555555;
   font-style: italic;

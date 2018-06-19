@@ -57,7 +57,33 @@
         <script src="@Context.GetLink("/assets/js/rAF.js")"></script>
         <script src="@Context.GetLink("/assets/js/dynamic-header.js")"></script>
         <script src="@Context.GetLink("/assets/js/site.js")"></script>
-                
+
+        <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+        <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+        <script>
+        window.addEventListener("load", function(){
+        window.cookieconsent.initialise({
+                "palette": {
+                        "popup": {
+                                "background": "#252e39"
+                        },
+                        "button": {
+                                "background": "#14a7d0"
+                        }
+                },
+                "position": "bottom-right",
+                type: 'opt-in',
+                layout: 'basic',
+                content: {
+                        message: '@localizedStrings["CookieConsentMessage"]',
+                        dismiss: '@localizedStrings["CookieConsentDismiss"]',
+                         allow: '@localizedStrings["CookieConsentAllow"]',
+                         deny: '@localizedStrings["CookieConsentDecline"]',
+                         link: '@localizedStrings["CookieConsentLearnMore"]',
+                         href: '@Context.GetLink(language + "/privacy.html")'
+                }
+        })});
+        </script>                
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -69,7 +95,6 @@
 
         </head>
         <body>
-                
                 <!-- Navigation -->
                 <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
                         <div class="container-fluid">
@@ -130,7 +155,7 @@
                         </div>
                 </div>
                 
-                <hr>
+                <!-- <hr> -->
                 
                 <!-- Footer -->
                 <footer>

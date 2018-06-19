@@ -1,4 +1,4 @@
-Title: Chi sono
+Title: Info
 TranslatedRefs: en/about.md
 ---
 <p><img style="background-image: none; border-width: 0; display: inline; float: right; margin: 0px 0 0 20px; padding-left: 0; padding-right: 0; padding-top: 0;" src="/media/12758/profile1_mvp.jpg" alt="Profile 1_MVP" width="200" height="200" rel="400,400" /><strong>Gianni Rosa Gallina</strong> is an Italian <em>Software Architect/Developer</em> in VR/AR field. He has more than 10 years of experience in Microsoft and .NET technologies. He worked with <strong>BEPS Engineering</strong> since 2007, he is <strong>Pluralsight</strong> Author since 2013 and graduated MSc Information Technology Engineer at the <strong>Polytechnic of Turin</strong> in 2009.</p>

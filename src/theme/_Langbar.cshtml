@@ -30,38 +30,42 @@
         translatedContentRefs[lang].Add("PostsPath", localizedStringsForLang["PostsPath"]);
     }
 
-    for(int i = 0; i<supportedLanguages.Length; i++)
+<div class="language-bar">
+    @for(int i = 0; i<supportedLanguages.Length; i++)
     {
+        var imgLink = "/assets/images/flag_" + supportedLanguages[i] + ".png";
         if(supportedLanguages[i] == language)
         {
-            <span>@supportedLanguages[i]</span> @if(i<supportedLanguages.Length-1){<text>|</text>}
+            continue;
+            // <img src="@imgLink" alt="@supportedLanguages[i]" title="@supportedLanguages[i]"></img>
         }
         else if(!string.IsNullOrEmpty(translatedRef))
         {
             if(translatedContentRefs[supportedLanguages[i]].ContainsKey(translatedRef))
             {
-                <a href="@Context.GetLink(translatedContentRefs[supportedLanguages[i]][translatedRef])">@supportedLanguages[i]</a> @if(i<supportedLanguages.Length-1){<text>|</text>}
+                <a href="@Context.GetLink(translatedContentRefs[supportedLanguages[i]][translatedRef])"><img src="@imgLink" alt="@supportedLanguages[i]" title="@supportedLanguages[i]"></img></a>
             }
             else
             {
-                <a href="@Context.GetLink(supportedLanguages[i] + "/")">@supportedLanguages[i] NOT FOUND</a> @if(i<supportedLanguages.Length-1){<text>|</text>}
+                <a href="@Context.GetLink(supportedLanguages[i] + "/")">@supportedLanguages[i] NOT FOUND</a>
             }
         }
         else
         {
             if(Metadata.String("SourceFileBase") == "_Tag" || Metadata.String("SourceFileBase") == "_Tags")
             {
-                <a href="@Context.GetLink(supportedLanguages[i] + "/" + translatedContentRefs[supportedLanguages[i]]["TagsPath"])">@supportedLanguages[i]</a>
+                <a href="@Context.GetLink(supportedLanguages[i] + "/" + translatedContentRefs[supportedLanguages[i]]["TagsPath"])"><img src="@imgLink" alt="@supportedLanguages[i]" title="@supportedLanguages[i]"></img></a>
             }
             else if(Metadata.String("SourceFileBase") == "_Archive")
             {
                 string pageRef = Metadata.Get<int>(Keys.CurrentPage) > 1 ? "/" + Metadata.Get<string>(Keys.CurrentPage) : "";
-                <a href="@Context.GetLink(supportedLanguages[i] + "/" + translatedContentRefs[supportedLanguages[i]]["PostsPath"] + pageRef)">@supportedLanguages[i]</a>
+                <a href="@Context.GetLink(supportedLanguages[i] + "/" + translatedContentRefs[supportedLanguages[i]]["PostsPath"] + pageRef)"><img src="@imgLink" alt="@supportedLanguages[i]" title="@supportedLanguages[i]"></img></a>
             }
             else
             {
-                <a href="@Context.GetLink(supportedLanguages[i] + "/")">@supportedLanguages[i]</a>
+                <a href="@Context.GetLink(supportedLanguages[i] + "/")"><img src="@imgLink" alt="@supportedLanguages[i]" title="@supportedLanguages[i]"></img></a>
             }
         }
     }
+</div>
 }

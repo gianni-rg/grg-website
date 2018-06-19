@@ -2,25 +2,35 @@
     var language = Context.GetPipelineLanguage(); 
     var localizedStrings = Context.GetLocalizedResources(language);
 }
-
+<p class="disclaimer">
+    @Html.Raw(localizedStrings["OpinionDisclaimer"])
+</p>
 <div class="container">
-        <div class="row">
-                <div class="col-md-12 text-center">
-                    <p class="copyright text-muted">
-                        @Html.Raw(string.Format(localizedStrings["CopyrightFooterFormat"], @DateTime.Now.Year))
-                        <br />
-                        @if (Context.String(BlogKeys.RssPath) != null) {
-                            <a href="@Context.GetLink(language + "/" + Context.String(BlogKeys.RssPath))"><i class="fa fa-rss"></i> @localizedStrings["RSSFeed"]</a>
-                        } 
-                        @(Context.String(BlogKeys.RssPath) != null && Context.String(BlogKeys.AtomPath) != null ? "|" : "")
-                        @if (Context.String(BlogKeys.AtomPath) != null) { 
-                            <a href="@Context.GetLink(language + "/" + Context.String(BlogKeys.AtomPath))"><i class="fa fa-rss"></i> @localizedStrings["AtomFeed"]</a>
-                        }
-                        <br />
-                        @Html.Partial("_Langbar")
-                        <br />
-                        <strong><a href="https://wyam.io">@localizedStrings["GeneratedByWyam"]</a></strong>
-                    </p>
-                </div>
+    <div class="row">
+            <div class="col-md-12 text-center cert-area">
+                 <a href="https://mvp.microsoft.com/@localizedStrings["Locale"]/PublicProfile/4034912?fullName=Gianni%20%20Rosa%20Gallina" target="_blank"><img src="/assets/images/ms-mvp-logo.png" alt="Microsoft MVP" title="Microsoft MVP"></img></a>
+                 <a href="https://www.youracclaim.com/badges/d4269aa5-ffe9-4ef2-aaf9-e5a703a6bd9b/public_url" target="_blank"><img src="/assets/images/unity-certified-programmer.png" alt="Unity Certified Programmer" title="Unity Certified Programmer"></img></a>
+                 <a href="https://www.youracclaim.com/badges/c9bb9482-8977-48c9-8de7-562118c9abda/public_url" target="_blank"><img src="/assets/images/ms-cert-mcsd-app-builder.png" alt="Microsoft Certified Solutions Developer: App Builder" title="Microsoft Certified Solutions Developer: App Builder"></img></a>
+                 <a href="https://www.youracclaim.com/badges/012df61a-d9a9-4a69-9e67-4c2e162347a4/public_url" target="_blank"><img src="/assets/images/ms-cert-mcsa-web.png" alt="Microsoft Certified Solutions Associate: Web Applications" title="Microsoft Certified Solutions Associate: Web Applications"></img></a>
+                 <img src="/assets/images/ms-cert-specialist.png" alt="Microsoft Specialist" title="Microsoft Specialist"></img>
+                 <img src="/assets/images/ms-cert-ts.png" alt="Microsoft Certified Technology Specialist" title="Microsoft Certified Technology Specialist"></img>
+            </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <p class="copyright">
+                <strong>@Html.Raw(string.Format(localizedStrings["CopyrightFooterFormat"], @DateTime.Now.Year))</strong><br />
+                <a href="https://wyam.io" target="_blank">@localizedStrings["GeneratedByWyam"]</a> | <a href="https://www.arvixe.com" target="_blank">@localizedStrings["PoweredByArvixe"]</a> | <a href="@Context.GetLink(language + "/privacy.html")" target="_blank">@localizedStrings["PrivacyPolicies"]</a><br />
+                @Html.Raw(localizedStrings["ThemeAbout"])
+            </p>
         </div>
+        <div class="col-md-6">
+            <p class="copyright">
+                <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img alt="Creative Commons License" title="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />@Html.Raw(@localizedStrings["CCLicense"])<br />
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        @Html.Partial("_Langbar")
+    </div>
 </div>
