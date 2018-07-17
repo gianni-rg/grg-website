@@ -5,6 +5,7 @@
     var language = Context.GetPipelineLanguage(); 
     var localizedStrings = Context.GetLocalizedResources(language);
     var cultureInfo = new System.Globalization.CultureInfo(localizedStrings["Locale"]);
+    var postImage = Model.String(BlogKeys.Image);
 }
 
 <div class="post-heading">
@@ -31,5 +32,5 @@
                 }
             }
         </div>     
-    } 
+    }
 </div>

@@ -9,12 +9,12 @@
 // Customize your settings and add new ones here
 Settings[Keys.Host] = "gianni.rosagallina.com";
 
-Settings[BlogKeys.MetaRefreshRedirects] = "false";
+Settings[BlogKeys.MetaRefreshRedirects] = "true";
 
 //Settings[BlogKeys.RdfPath] = "rdf.feed";
 
 //Settings[BlogKeys.Image] = "<relPath/image>";
-Settings[BlogKeys.IndexPageSize] = 10;
+Settings[BlogKeys.IndexPageSize] = 5;
 Settings[BlogKeys.IndexPaging] = true;
 Settings[BlogKeys.IndexFullPosts] = false;
 Settings[BlogKeys.ArchiveExcerpts] = true;
@@ -23,6 +23,8 @@ Settings[BlogKeys.TagPageSize] = 10;
 
 //Settings[Keys.LinkHideIndexPages] = false;
 Settings[Keys.LinkHideExtensions] = false;
+
+Settings[BlogKeys.CaseInsensitiveTags] = true;
 
 Settings[BlogKeys.IncludeDateInPostPath] = true;
 
@@ -64,14 +66,15 @@ Pipelines["BlogPosts_it"].Replace("RelativeFilePath",
                         : $"it/{((Dictionary<string,Dictionary<string,string>>)Settings[BlogKeys.LocalizedResources])["it"]["PostsPath"]}/{fileName}";
                 }));                
 
+
 Pipelines.InsertBefore("ValidateLinks_en","AddPostsMetaAndSearch_en",
-    Documents("BlogPosts_en"),
+    Documents("BlogPosts_en", "Pages_en"),
     Meta("SearchIndexItem", new SearchIndexItem("/" + @doc.String("RelativeFilePath"), @doc.String("Title"), @doc.Content)
             { Description = @doc.String("Description"), Tags = @doc.String("Tags") })
 );
 
 Pipelines.InsertBefore("ValidateLinks_it","AddPostsMetaAndSearch_it",
-    Documents("BlogPosts_it"),
+    Documents("BlogPosts_it", "Pages_it"),
     Meta("SearchIndexItem", new SearchIndexItem("/" + @doc.String("RelativeFilePath"), @doc.String("Title"), @doc.Content)
             { Description = @doc.String("Description"), Tags = @doc.String("Tags") })
 );

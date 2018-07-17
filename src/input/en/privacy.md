@@ -4,7 +4,7 @@ ShowInNavBar: false
 ---
 # Who I am
 
-I am Gianni Rosa Gallina, an Italian Senior Software Engineer, owner and manager of this blog <a href="http://gianni.rosagallina.com" target="_blank">http://gianni.rosagallina.com</a> and all the personal data associated with it.
+I am Gianni Rosa Gallina, an Italian Senior Software Engineer, owner and manager of this blog <a href="http://gianni.rosagallina.com">http://gianni.rosagallina.com</a> and all the personal data associated with it.
 
 I care about the privacy of my users and I try to do my best to protect it. Anyway, if you have any privacy related problems or you do want to ask clarifications on this privacy policy, feel free to contact me at [giannishub@hotmail.com](mailto:giannishub@hotmail.com).
 
@@ -30,7 +30,7 @@ This website uses cookies to remember if you have agreed (or not) to our use of 
 
 This website make use of different third party applications and services to enhance the experience of website visitors. These include social media platforms such as Facebook and Twitter (through the use of sharing buttons), commenting systems like Disqus or embedded content from Youtube and Vimeo. As a result, cookies may be set by these third parties, and used by them to track your online activity. I have no direct control over the information that is collected by these cookies.
 
-Enabling these cookies is not strictly necessary for the website to work but it will provide you with a better browsing experience. You can delete or block these cookies, but if you do that some features of this site may not work as intended. The cookie-related information is not used to identify you personally and the pattern data is fully under our control. These cookies are not used for any purpose other than those described here.
+Enabling these cookies is not strictly necessary for the website to work but it will provide you with a better browsing experience. You can delete or block these cookies, but if you do that some features of this site may not work as intended. The cookie-related information is not used to identify you personally. These cookies are not used for any purpose other than those described here.
 
 ### How to control cookies
 
@@ -98,4 +98,5 @@ I try to keep your data as secure as possible by:
 I continuously stay up-to-date about possible data breaches on the services that I use. In case of possible data breaches I get notified about, I will notify all my users immediately (if possible).
 
 ## Privacy Policy Changes
+
 Although most changes are likely to be minor, I may change this Privacy Policy from time to time. I encourage visitors to frequently check this page for any changes to the Privacy Policy. If I make changes, your continued use of the website after any change in this Privacy Policy will constitute your consent to such change.

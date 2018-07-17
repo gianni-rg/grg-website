@@ -4,98 +4,99 @@ ShowInNavBar: false
 ---
 # Chi sono
 
-I am Gianni Rosa Gallina, an Italian Senior Software Engineer, owner and manager of this blog <a href="http://gianni.rosagallina.com" target="_blank">http://gianni.rosagallina.com</a> and all the personal data associated with it.
+Io sono Gianni Rosa Gallina, un Senior Software Engineer italiano, proprietario e gestore di questo blog <a href="http://gianni.rosagallina.com">http://gianni.rosagallina.com</a> e di tutti i dati personali associati ad esso.
 
-I care about the privacy of my users and I try to do my best to protect it. Anyway, if you have any privacy related problems or you do want to ask clarifications on this privacy policy, feel free to contact me at [giannishub@hotmail.com](mailto:giannishub@hotmail.com).
+Tengo molto alla privacy dei miei utenti e cerco di fare il meglio che posso per proteggerla. In ogni caso, se aveste dubbi o problemi relativi a questi termini sulla privacy, sentitevi liberi di contattarmi a [giannishub@hotmail.com](mailto:giannishub@hotmail.com).
 
-# Quali dati personali sono collezionati e perché
+# Quali dati personali sono raccolti e perch&egrave;
 
-While the visitors interact with this website, I will unavoidably collect personal data about them. This is because how a website typically works and is fundamental to provide you the services offered by it. I am going to tell you what data I collect and the reasons why I collect them.
+Mentre i visitatori interagiscono con questo sito web, inevitabilmente alcuni dati personali saranno raccolti. Questo &egrave; come funziona in generale un sito web ed &egrave; fondamentale per fornire i suoi servizi. Vi dir&ograve; quali dati sono raccolti e perch&egrave;.
 
 ## Commenti
 
-This website uses <a href="https://disqus.com/" target="_blank">Disqus</a> service to provide its visitors a better interface for commenting. Disqus will collect the commenter’s name, avatar photo, IP address, website, e-mail and comment text, that are visible to me in the administration panel and to the public in the context of the visitor’s comment. Disqus privacy policy can found here: <a href="https://help.disqus.com/terms-and-policies/disqus-privacy-policy" target="_blank">https://help.disqus.com/terms-and-policies/disqus-privacy-policy</a>. It is a 3rd party that will manage the visitors’ personal data and has been chosen because it is a high quality service and offers a common commenting ecosystem that let the user comment on various websites using only one account.
+Questo sito usa i servizi <a href="https://disqus.com/" target="_blank">Disqus</a> per fornire ai visitatori una migliore interfaccia per commentare. Disqus raccoglier&agrave; il nome del commentatore, avatar, indirizzo IP, sito web, e-mail e il testo del commento, che sono visibili a me nel pannello di ammnistrazione e al pubblico, nel contesto dei commenti del visitatore. I termini sulla privacy di Disqus sono disponibili qui: <a href="https://help.disqus.com/terms-and-policies/disqus-privacy-policy" target="_blank">https://help.disqus.com/terms-and-policies/disqus-privacy-policy</a>. E' una terza parte che gestisce i dati personali ed &egrave; stata scelta per l'alta qualit&agrave; dei suoi servizi e perch&egrave; offre un ecosistema comune per la gestione dei commenti, che permette agli utenti di commentare in molteplici siti web usando un unico account.
 
-## Cookies
+## Cookie
 
-To make this site work properly, it sometimes place small data files called cookies on your device.
+Per far funzionare al meglio questo sito, si fa uso di piccoli file di dati chiamati cookie e salvati sul vostro dispositivo.
 
-### What are cookies?
+### Cosa sono i cookie?
 
-A cookie is a small text file that a website saves on your computer or mobile device when you visit the site. It enables the website to remember your actions and preferences (such as login, language, font size and other display preferences) over a period of time, so you don’t have to keep re-entering them whenever you come back to the site or browse from one page to another.
+Un cookie &egrave; un piccolo file di testo che un sito web salva sul vostro dispositivo (computer o mobile) quando visitate il sito web. Permette di ricordare azioni o preferenze (come login, lingua, dimensione dei font, ecc.) per un certo periodo di tempo, in modo che l'utente non abbia necessit&agrave; di inserirle ogni volta che si torna a visitare il sito web.
 
-### How I use cookies
+### Come uso i cookie
 
-This website uses cookies to remember if you have agreed (or not) to our use of cookies on this site.
+Questo sito usa i cookie per ricordare se avete (o meno) accettato l'uso dei cookie su questo sito.
 
-This website make use of different third party applications and services to enhance the experience of website visitors. These include social media platforms such as Facebook and Twitter (through the use of sharing buttons), commenting systems like Disqus or embedded content from Youtube and Vimeo. As a result, cookies may be set by these third parties, and used by them to track your online activity. I have no direct control over the information that is collected by these cookies.
+Questo sito usa alcune applicazioni e servizi di terze parti per migliorare l'esperienza dei visitatori. Questo include l'uso di piattaforme social come Facebook e Twitter (tramite i pulsanti per condividere), il sistema di commenti Disqus o incorporati nei contenuti di Youtube e/o Vimeo. Come risultato, i cookie possono essere inviati a terze parti e usati da essi per tracciare la vostra attivit&agrave; online. Non ho controllo diretto sulle informazioni raccolte tramite questi cookie.
 
-Enabling these cookies is not strictly necessary for the website to work but it will provide you with a better browsing experience. You can delete or block these cookies, but if you do that some features of this site may not work as intended. The cookie-related information is not used to identify you personally and the pattern data is fully under our control. These cookies are not used for any purpose other than those described here.
+Abilitare i cookie non &egrave; strettamente necessario ma, se li abilitate, l'esperienza di navigazione &egrave; migliore. Potete cancellarli o bloccarli, ma in tal caso alcune funzionalit&agrave; potrebbero non funzionare bene. Le informazioni presenti nei cookie non sono usate per identificare gli utenti singolarmente. I cookie non sono usati per nessun altro scopo, se non quelli dichiarati qui.
 
-### How to control cookies
+### Come controllare i cookie
 
-You can control and/or delete cookies as you wish. You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed. If you do this, however, you may have to manually adjust some preferences every time you visit a site and some services and functionalities may not work.
+Potete controllare o cancellare i cookie come preferite. Potete cancellare tutti quelli presenti sul vostro dispositivo o impostare il browser in modo da non accettarli. In tal caso, probabilmente dovrete impostare a mano ed ogni volta alcune preferenze, e alcuni servizi potrebbero non funzionare.
 
-You can disable Disqus tracking using the opt-out functionality provided at this <a href="https://help.disqus.com/customer/portal/articles/1657951-ad-training-settings" target="_blank">link</a>.
+Potete disabilitare la tracciatura di Disqus usando la loro funzionalit&agrave; disponibile a questo <a href="https://help.disqus.com/customer/portal/articles/1657951-ad-training-settings" target="_blank">link</a>.
 
-You can find Google partners Privacy Policy, along with information on Google cookies at this <a href="http://www.google.com/policies/privacy/partners/" target="_blank">link</a>.
+Potete trovare i termini sulla privacy dei partner Google, insieme a come Google usa i cookie a questo <a href="http://www.google.com/policies/privacy/partners/" target="_blank">link</a>.
 
-## Embedded content from other websites
+## Contenuti incorporati da altri siti web
 
-Articles on this site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website.
+Gli articoli su questo sito potrebbero includere contenuti provenienti da altri siti (es. video, immagini, articoli, ecc.). I contenuti integrati da altri siti web si comportano esattamente come se voi foste andati a visitarli direttamente.
 
-These websites may collect data about you, use of cookies, embed additional third-party tracking, and monitor the visitor’s interaction with that embedded content, including tracing your interaction with the embedded content if you have an account and are logged in to that website.
+Questi siti web potrebbero collezionare dati su di voi, usare cookie, integrare ulteriori meccanismi di tracciatura di terze parti, e monitorare le interazioni dei visitori con quel contenuto, incluso tracciare le vostre interazioni con il contenuto, se avete un account e siete collegati a quel sito web.
 
-## Analytics
+## Statistiche
 
-This website uses Google Analytics to better understand the behavior of its readers and provide always a better service.
+Questo sito usa Google Analytics per comprendere meglio il comportamento dei suoi lettori e fornire un servizio sempre migliore.
 
-# Who I share your data with
+# Con chi condivido i dati
 
-I’ll make sure to share the data your provide to me only when strictly necessary, for instance when asked by local authorities.
+Cercher&ograve; di condividere i vostri dati soltanto se strettamente necessario, ad esempio nel caso di richieste dalle autorit&agrave; locali.
 
-Some aggregate data regarding the analytics of the website may be shared with third parties or shared on social media, but these data will be completely anonymized.
+Alcune informazioni aggregate riguardanti le statistiche del sito potrebbero essere condivise con terze parti o sui social media, ma tali dati saranno completamente anonimizzati.
 
-I also use third party services to offer you a better experience on this website, like for instance social media integration. Regarding these services, that will take your data through the use of my website (e.g. Twitter, Facebook, etc…), I kindly invite you to refer to their privacy policy to evaluate their usage of data.
+Uso anche servizi di terze parti per offrire un servizio ottimale su questo sito, come ad esempio l'integrazione con i social media. Relativamente a questi servizi, che prenderanno i vostri dati tramite il mio sito (es. Twitter, Facebook, ecc.), vi invito caldamente a leggere i loro termini sulla privacy per sapere come loro li utilizzano.
 
-# How long I retain your data
+# Per quanto tempo i dati saranno mantenuti
 
-If you leave a comment, the comment and its metadata are retained indefinitely. This way this website can recognize and approve any follow-up comments automatically instead of holding them in a moderation queue.
+Se lasciate un commento, il commento e i suoi metadati saranno mantenuti indefinitivamente. In questo modo il sito potr&agrave; gestire i commenti ed eventuali risposte automaticamente, senza l'uso di code di moderazione o altri meccanismi.
 
-# What rights you have over your data
+# Quali diritti avete sui vostri dati
 
-If you have left comments, you can request to receive an exported file of the personal data I hold about you, including any data you have provided to me. You can also request that I erase any personal data I hold about you. This does not include any data I am obliged to keep for administrative, legal or security purposes.
+Se avete lasciato dei commenti, potete far richiesta per poterli scaricare, inclusi eventuali altri dati che ho in mio possesso. Potete fare anche richiesta di cancellazione completa di tutti i vostri dati. Sono per&ograve; esclusi i dati che devo tenere obbligatoriamente per motivi amministrativi, legali o di sicurezza.
 
-Your rights on your personal data include the following:
+I vostri diritti sui vostri dati personali includono:
 
-- Request access to your personal data
-- Request correction or deletion of your personal data
-- Object to our use and processing of your personal data
-- Request that we limit our use and processing of your personal data
-- Request portability of your personal data
+- Richiesta di accesso ai dati personali
+- Richiesta di correggere o cancellare i vostri dati personali
+- Obiettare al mio utilizzo dei vostri dati personali
+- Richiesta di limitare l'utilizzo dei vostri dati
+- Richiedere la portabilit&agrave; dei vostri dati
 
-# Where I send your data
+# Dove invio i vostri dati
 
-Visitor comments may be checked through an automated spam detection service.
+I commenti dei visitaori potrbbero essere oggetto di servizi automatici per filtare spam e contenuti non appropriati.
 
-As stated before, this website uses services from third parties like Disqus (comments) and Arvixe (web hosting service) to offer you its services. These companies have headquarters outside the EU, but they are GDPR compliant services, so your data is secure even if it exits the EU.
+Come gi&agrave; riportato precedentemente, questo sito usa servizi di terze parti come Disqus (commenti) e Arvixe (web hosting) per offrire i servizi. Queste aziende hanno sede al di fuori dell'UE, ma sono servizi compatibili con GDPR, per cui i vostri dati sono sicuri anche al di fuori della UE.
 
-# Contact information
+# Informazioni di contatto
 
-In case of any problems with your personal data, you can contact me, Gianni Rosa Gallina, and I will help you in solving any issue. You can contact me via e-mail: [giannishub@hotmail.com](mailto:giannishub@hotmail.com)
+In caso di qualunque problema in merito ai dati personali, potete contattare me, Gianni Rosa Gallina, e cercher&ograve; di aiutarvi nel risolvere la cosa. Potete contattarmi via e-mail: [giannishub@hotmail.com](mailto:giannishub@hotmail.com)
 
-# Additional information
+# Ulteriori informazioni
 
-## How I protect your data
+## Come proteggo i vostri dati
 
-I try to keep your data as secure as possible by:
+Cerco di tenere al sicuro i vostri dati:
 
-- Using only high-quality trusted products to handle them
-- Keep my website always updated with the latest security patches
+- usando solo servizi affidabili e di alta qualit&agrave; per gestirli
+- tenendo il mio sito web sempre aggiornato con le ultime patch di sicurezza
 
-## What data breach procedures I have in place
+## Quali procedure ci sono per eventuali fughe di dati
 
-I continuously stay up-to-date about possible data breaches on the services that I use. In case of possible data breaches I get notified about, I will notify all my users immediately (if possible).
+Cerco di rimanere costantemente aggiornato su eventuali fughe di dati relative ai servizi che utilizzo. In caso di possibili problemi di sicurezza di cui verr&ograve; a conoscenza, se possibile, cercher&ograve; di notificare i miei utenti immediatamente.
 
-## Privacy Policy Changes
-Although most changes are likely to be minor, I may change this Privacy Policy from time to time. I encourage visitors to frequently check this page for any changes to the Privacy Policy. If I make changes, your continued use of the website after any change in this Privacy Policy will constitute your consent to such change.
+## Cambiamenti ai termini sulla privacy
+
+Anche se i cambiamenti potrebbero essere di lieve entit&agrave;, potr&ograve; cambiare questi termini sulla privacy in qualunque momento. Incoraggio i visitatori a controllare frequentemente questa pagina per venire a conoscenza di eventuali cambiamenti. In caso di modifiche, il vostro utilizzo del sito web successivo ai cambiamenti, costituir&agrave; consenso implicito all'accettazione dei termini e relativi cambiamenti.

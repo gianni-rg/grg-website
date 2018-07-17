@@ -1,11 +1,22 @@
 @{
     Layout = "_Layout.cshtml";
+
+    var postImage = Model.String(BlogKeys.Image);
 }
 
 @section Header {
     @Html.Partial("_PostHeader.cshtml")
 }
 
+@if(!string.IsNullOrEmpty(postImage))
+{
+<div class="post-image">
+    <img src="@postImage" class="img-fluid"></img>   
+</div>
+}
+
+<div class="post-body">
 @RenderBody()
+</div>
 
 @Html.Partial("_PostFooter.cshtml")

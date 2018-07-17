@@ -2,12 +2,12 @@ Title: Cerca
 TranslatedRefs: en/search.cshtml
 ShowInNavbar: false
 ---
-<p>Inserisci il testo qui: (e.g. 'absolute' or 'construct')</p>
+<p>Inserisci qui il testo: (es. 'visual studio', 'virtual reality', ecc.)</p>
 
-<input type="search" id="search" autofocus="autofocus" placeholder="Search..."/>
+<input type="search" id="search" autofocus="autofocus" placeholder="Cerca..."/>
 
-<h3>Search results</h3>
-<div id="searchResults"></div>
+<h3>Risultati</h3>
+<div id="searchResults" class="post-body"></div>
 
 <script src="/assets/js/lunr.min.js"></script>
 <script src="/it/assets/js/searchindex.js"></script>
@@ -32,10 +32,10 @@ function runQuery(query){
 	var results = searchModule.search(query);
 	
 	if(results.length == 0 ){
-		$("#searchResults").append("<p><b>No results found for query '" + query + "'</b></p>")
+		$("#searchResults").append("<p><b>Nessun risultato trovato per '" + query + "'</b></p>")
 	}
 	else{
-		$("#searchResults").append("<p>Number of matching posts: <b>" + results.length + "</b></p>");
+		$("#searchResults").append("<p>Numero di post trovati: <b>" + results.length + "</b></p>");
 		
 		var listHtml = "<ul>";
 		
