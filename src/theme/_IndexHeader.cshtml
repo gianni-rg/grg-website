@@ -1,0 +1,19 @@
+@{
+    var language = Context.GetPipelineLanguage(); 
+    var localizedStrings = Context.GetLocalizedResources(language);
+}
+
+<div class="site-heading">
+    @if(!string.IsNullOrEmpty(localizedStrings[BlogKeys.Description]))
+    {
+        <h1>@localizedStrings[BlogKeys.Description]</h1>
+    }
+    @if(!string.IsNullOrEmpty(localizedStrings[BlogKeys.Intro]))
+    {            
+        @if(!string.IsNullOrEmpty(localizedStrings[BlogKeys.Description]))
+        {
+            <hr class="small">
+        }
+        <span class="subheading">@localizedStrings[BlogKeys.Intro]</span>
+    }
+</div>

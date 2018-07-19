@@ -328,3 +328,8 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+
+# Wyam
+output/*
+/src/config.wyam.dll
+/src/config.wyam.hash

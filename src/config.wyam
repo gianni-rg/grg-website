@@ -1,0 +1,100 @@
+#a Wyam.MultilanguageBlog
+#recipe MultilanguageBlog
+#theme MultilanguageCleanBlog
+
+#n Wyam.Feeds
+#n Wyam.Web
+#n Wyam.SearchIndex
+
+// Customize your settings and add new ones here
+Settings[Keys.Host] = "gianni.rosagallina.com";
+
+Settings[BlogKeys.MetaRefreshRedirects] = "true";
+
+//Settings[BlogKeys.RdfPath] = "rdf.feed";
+
+//Settings[BlogKeys.Image] = "<relPath/image>";
+Settings[BlogKeys.IndexPageSize] = 5;
+Settings[BlogKeys.IndexPaging] = true;
+Settings[BlogKeys.IndexFullPosts] = false;
+Settings[BlogKeys.ArchiveExcerpts] = true;
+Settings[BlogKeys.ArchivePageSize] = 10;
+Settings[BlogKeys.TagPageSize] = 10;
+
+//Settings[Keys.LinkHideIndexPages] = false;
+Settings[Keys.LinkHideExtensions] = false;
+
+Settings[BlogKeys.CaseInsensitiveTags] = true;
+
+Settings[BlogKeys.IncludeDateInPostPath] = true;
+
+Settings[BlogKeys.ValidateRelativeLinks] = false;
+Settings[BlogKeys.ValidateAbsoluteLinks] = false;
+
+Settings[BlogKeys.MarkdownConfiguration] = "advanced+bootstrap";
+Settings[BlogKeys.MarkdownExtensionTypes] = null;
+
+// Settings[BlogKeys.PostsPath] = ".";
+
+// Add any pipeline customizations here
+
+// Post with full-date path (including day)
+Pipelines["BlogPosts_en"].Replace("RelativeFilePath",
+ new Meta(Keys.RelativeFilePath, (doc, ctx) =>
+                {
+                    DateTime published = doc.DateTime("Published");
+                    // string language = doc.FilePath(Keys.SourceFileName).Directory.ToString();
+                    string fileName = doc.Bool("FrontMatterPublished")
+                        ? doc.FilePath(Keys.SourceFileName).ChangeExtension("html").FullPath
+                        : doc.FilePath(Keys.SourceFileName).ChangeExtension("html").FullPath.Substring(11);
+                    return bool.Parse(Settings[BlogKeys.IncludeDateInPostPath].ToString())
+                        ? $"en/{((Dictionary<string,Dictionary<string,string>>)Settings[BlogKeys.LocalizedResources])["en"]["PostsPath"]}/{published:yyyy}/{published:MM}/{published:dd}/{fileName}"
+                        : $"en/{((Dictionary<string,Dictionary<string,string>>)Settings[BlogKeys.LocalizedResources])["en"]["PostsPath"]}/{fileName}";
+                }));
+
+// Post with full-date path (including day)
+Pipelines["BlogPosts_it"].Replace("RelativeFilePath",
+ new Meta(Keys.RelativeFilePath, (doc, ctx) =>
+                {
+                    DateTime published = doc.DateTime("Published");
+                    // string language = doc.FilePath(Keys.SourceFileName).Directory.ToString();
+                    string fileName = doc.Bool("FrontMatterPublished")
+                        ? doc.FilePath(Keys.SourceFileName).ChangeExtension("html").FullPath
+                        : doc.FilePath(Keys.SourceFileName).ChangeExtension("html").FullPath.Substring(11);
+                    return bool.Parse(Settings[BlogKeys.IncludeDateInPostPath].ToString())
+                        ? $"it/{((Dictionary<string,Dictionary<string,string>>)Settings[BlogKeys.LocalizedResources])["it"]["PostsPath"]}/{published:yyyy}/{published:MM}/{published:dd}/{fileName}"
+                        : $"it/{((Dictionary<string,Dictionary<string,string>>)Settings[BlogKeys.LocalizedResources])["it"]["PostsPath"]}/{fileName}";
+                }));                
+
+
+Pipelines.InsertBefore("ValidateLinks_en","AddPostsMetaAndSearch_en",
+    new Documents().FromPipelines(new string[] { "BlogPosts_en", "Pages_en"}),
+    Meta("SearchIndexItem", new SearchIndexItem("/" + @doc.String("RelativeFilePath"), @doc.String("Title"), @doc.Content)
+            { Description = @doc.String("Description"), Tags = @doc.String("Tags") })
+);
+
+Pipelines.InsertBefore("ValidateLinks_it","AddPostsMetaAndSearch_it",
+    new Documents().FromPipelines(new string[] { "BlogPosts_it", "Pages_it"}),
+    Meta("SearchIndexItem", new SearchIndexItem("/" + @doc.String("RelativeFilePath"), @doc.String("Title"), @doc.Content)
+            { Description = @doc.String("Description"), Tags = @doc.String("Tags") })
+);
+
+Pipelines.InsertAfter("AddPostsMetaAndSearch_en", "SearchIndex_en",
+	Documents("AddPostsMetaAndSearch_en"),
+	SearchIndex((FilePath)"en/assets/stopwords.txt"),
+	WriteFiles((doc,ctx) => string.IsNullOrEmpty(doc.Content) ? null : "en/assets/js/searchindex.js").UseWriteMetadata(false)
+);
+
+Pipelines.InsertAfter("AddPostsMetaAndSearch_it", "SearchIndex_it",
+	Documents("AddPostsMetaAndSearch_it"),
+	SearchIndex((FilePath)"it/assets/stopwords.txt"),
+	WriteFiles((doc,ctx) => string.IsNullOrEmpty(doc.Content) ? null : "it/assets/js/searchindex.js").UseWriteMetadata(false)
+);
+
+// Prepare thumbnails for each "front-image"
+// Pipelines.Add("Images",
+//   ReadFiles("*").Where(x => x.Contains("images\\") && new[] { ".jpg", ".jpeg", ".gif", ".png"}.Contains(Path.GetExtension(x))),
+// Image()
+//   .SetJpegQuality(100).Resize(400,209).SetSuffix("-thumb"),
+//   WriteFiles("*")
+// );

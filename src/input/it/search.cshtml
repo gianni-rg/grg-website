@@ -1,0 +1,66 @@
+Title: Cerca
+TranslatedRefs: en/search.cshtml
+ShowInNavbar: false
+---
+<p>Inserisci qui il testo: (es. 'visual studio', 'virtual reality', ecc.)</p>
+
+<input type="search" id="search" autofocus="autofocus" placeholder="Cerca..."/>
+
+<h3>Risultati</h3>
+<div id="searchResults" class="post-body"></div>
+
+<script src="/assets/js/lunr.min.js"></script>
+<script src="/it/assets/js/searchindex.js"></script>
+<script>
+function getQueryParam(name){
+    var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+    if (results==null){
+        return null;
+    }
+    else{
+        return results[1] || 0;
+    }
+}
+
+function runQuery(query){
+	$("#searchResults").empty();
+	
+	if( query.length < 2 ){
+		return;
+	}
+	
+	var results = searchModule.search(query);
+	
+	if(results.length == 0 ){
+		$("#searchResults").append("<p><b>Nessun risultato trovato per '" + query + "'</b></p>")
+	}
+	else{
+		$("#searchResults").append("<p>Numero di post trovati: <b>" + results.length + "</b></p>");
+		
+		var listHtml = "<ul>";
+		
+		for(var i = 0; i < results.length; ++i){
+			var res = results[i];
+			listHtml += "<li><a href='" + res.url + "'>" + res.title + "</a></li>";
+		}
+		
+		listHtml += "</ul>"
+		
+		$("#searchResults").append(listHtml);
+	}
+}
+
+$(document).ready(function(){
+	$("#search").on('input propertychange paste', function() {
+		runQuery($("#search").val());
+	});
+	
+	var q = getQueryParam("q");
+    
+    if( q ) {
+        q = decodeURIComponent(q);
+        $("#search").val(q);
+		runQuery(q);
+	}
+});
+</script>
