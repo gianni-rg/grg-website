@@ -99,3 +99,11 @@ if($target -eq "Preview")
     & code.cmd $websiteRoot
 	Exit
 }
+
+if($target -eq "Release")
+{
+    # Use Wyam to build the website, ready for deploy
+    Write-Host "Executing:" $wyam_exe "build -o $outputPath $websiteRoot"
+    Start-Process -FilePath "$wyam_exe" -PassThru -ArgumentList "build -o $outputPath $websiteRoot" -Wait
+	Exit
+}

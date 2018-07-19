@@ -1,5 +1,5 @@
 ---
-Title: Speaker A Microsoft Ignite 2017
+Title: Speaker a Microsoft Ignite 2017
 Published: 2017-08-29 09:30:00
 Language: it
 Image: /assets/images/msignite_techcmu_joinsession_01_fb_499x262.jpg

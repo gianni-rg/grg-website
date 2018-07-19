@@ -1,5 +1,5 @@
 ---
-Title: Un Viaggio Termina. Un Altro Inizia...
+Title: Un viaggio termina. Un altro inizia...
 Published: 2017-04-19 21:35:00
 Language: it
 Image: /assets/images/journey_500x393.jpg

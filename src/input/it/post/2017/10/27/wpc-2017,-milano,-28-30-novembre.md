@@ -1,5 +1,5 @@
 ---
-Title: Wpc 2017, Milano, 28-30 Novembre
+Title: WPC 2017, Milano, 28-30 Novembre
 Published: 2017-10-27 13:45:00
 Language: it
 Image: /assets/images/wpc_logo-header_500x69.jpg

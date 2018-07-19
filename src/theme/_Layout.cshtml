@@ -39,7 +39,12 @@
         <meta name="msapplication-starturl" content="@Context.GetLink("/" + language)" />
 
         <meta property="og:title" content="@PageTitle" />
-        @* <meta property="og:image" content="@Blog.Image" /> *@
+        
+        @if(Model.String(BlogKeys.Image) != null)
+        {
+                <meta property="og:image" content="@Model.String(BlogKeys.Image)" />
+        }
+        
         <meta property="og:type" content="website" />
         <meta property="og:url" content="@Context.GetLink(Model, true)" />
         @*TODO: More social graph meta tags*@
@@ -137,10 +142,10 @@
                 <!-- Page Header -->
                 @{
                         string backgroundImage = null;
-                        if(Model.String(BlogKeys.Image) != null)
+                        /*if(Model.String(BlogKeys.Image) != null)
                         {
                                 backgroundImage = $"background-image: url(\"{Model.String(BlogKeys.Image)}\")";
-                        }
+                        }*/
                 }
                 <header class="intro-header" id="intro-header" style="@backgroundImage">
                         <canvas id="backgroundCanvas"></canvas>
@@ -178,12 +183,11 @@
 
                 @Html.Partial("_Scripts")
                 @*<script>hljs.initHighlightingOnLoad();</script>*@
-
-                @* @if(Model.String(BlogKeys.Image) == null)
-                {
-                }*@
-                <script id="dsq-count-scr" src="//giannirg.disqus.com/count.js" async></script>
                 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b3f1cc16fd01e26"></script>
+                @if(IsSectionDefined("ClosingScripts"))
+                {
+                    @RenderSection("ClosingScripts")
+                }
         </body>
 </html>
 

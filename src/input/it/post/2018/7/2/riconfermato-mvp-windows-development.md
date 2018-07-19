@@ -1,5 +1,5 @@
 ---
-Title: Riconfermato Mvp Windows Development
+Title: Riconfermato MVP Windows Development
 Published: 2018-07-02 09:00:00
 Language: it
 Image: /assets/images/mvp_horizontal_blueonly.png
