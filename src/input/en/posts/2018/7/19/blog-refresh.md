@@ -2,7 +2,7 @@
 Title: Blog refresh!
 Published: 2018-07-19 09:15:00
 Language: en
-Description: I am very happy to announce that I have been awarded for the 7th time in a row Microsoft MVP in the Windows Development category. Thank you to everyone in Microsoft (and non-Microsoft people) who made this possible again!
+Description: After many years of the good old Metro UI style, inspired by Windows Phone, I decided to give this blog a refresh and also change the underlaying blog engine.
 Image: /assets/images/blog-refresh-header.jpg
 Tags:
 - web
@@ -13,7 +13,7 @@ Tags:
 TranslatedRefs: it/post/2018/7/19/rinfrescata-al-blog.md
 DisqusId: 8671AFF20B714DD5A6E6B649CEF1AE6FAD78D99F168D47BF8C13A4149AA1FD84
 ---
-After many years of the old good Metro UI style, inspired by Windows Phone, I decided to give this blog a refresh and also change the underlaying blog engine.
+After many years of the good old Metro UI style, inspired by Windows Phone, I decided to give this blog a refresh and also change the underlaying blog engine.
 
 After reading about **static websites** in <a href="https://www.hanselman.com/blog/ExploringWyamANETStaticSiteContentGenerator.aspx" target="_blank">this old post by Scott Hanselman</a>, I decided to experimenting a little bit with <a href="https://wyam.io/" target="_blank">**Wyam**</a>, a highly modular and configurable .NET static site content generator, and results are quite satisfying!
 
