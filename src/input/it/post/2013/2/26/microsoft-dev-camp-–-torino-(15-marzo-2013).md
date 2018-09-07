@@ -18,7 +18,7 @@ Il prossimo **15 marzo**, presso il MIC (Microsoft Innovation Center) di Torino,
 
 Gli eventi sono gratuiti e sono un'ottima occasione per incontrare altri sviluppatori e divertirsi sviluppando insieme applicazioni per **Windows Azure**, **Windows Phone** e il nuovo **Windows 8**, con il supporto esclusivo di **esperti Microsoft** e della **Community** (in particolare, a Torino, con il supporto di <a href="http://www.bepseng.it/" target="_blank">BEPS Engineering</a> e <a href="http://www.torinotechnologiesgroup.it/Home.aspx" target="_blank">TTG - Torino Technologies Group</a>).
 
-Un Dev Camp è costituito da un **laboratorio pratico** e molto **interattivo**, *<span style="text-decoration: underline;">non</span> guidato passo per passo*, per dare ai partecipanti tutti gli strumenti per realizzare le proprie applicazioni. Inoltre si potranno testare le applicazioni per Windows 8 su **Ultrabook** e **Tablet x86/ARM**, le app Windows Phone su smartphone **Nokia** e le app di Windows Azure **gratuitamente** nella **Cloud**.
+Un Dev Camp è costituito da un **laboratorio pratico** e molto **interattivo**, *<span style="text-decoration: underline;">non</span> guidato passo per passo*, per dare ai partecipanti tutti gli strumenti per realizzare le proprie applicazioni. Inoltre si potranno testare le applicazioni per Windows 8 su **Ultrabook** e **Tablet x86/ARM**, le app Windows Phone su smartphone **Nokia** e le app di Windows Azure **gratuitamente** nella **Cloud**.
 
 I **Microsoft Dev Camp** sono un ottimo modo di iniziare a sviluppare o migliorare e testare le proprie applicazioni!
 
@@ -28,7 +28,7 @@ E' necessario arrivare al lab pronti per **sviluppare con il proprio PC**. Quest
 Windows 8 e Visual Studio 2012 Express per Windows 8 (scaricabili
 gratuitamente <a href="http://msdn.microsoft.com/windows/apps/br229516.aspx" target="_blank">qui</a>).
 *   **Windows Phone:** Laptop personale con installato
-il <a href="http://www.microsoft.com/click/services/Redirect2.ashx?CR_EAC=300031561" target="_blank">Windows Phone 7.1 SDK</a> e lo <a href="http://zune.net/" target="_blank">Zune Client</a> oppure
+il <a href="http://www.microsoft.com/click/services/Redirect2.ashx?CR_EAC=300031561" target="_blank">Windows Phone 7.1 SDK</a> e lo <a href="http://zune.net/" target="_blank">Zune Client</a> oppure
 Windows 8 Pro (con supporto Hyper-V) e <a href="http://dev.windowsphone.com/en-us/downloadsdk" target="_blank">Windows Phone 8 SDK</a>.
 *   **Windows Azure:** Laptop personale con installato
 il <a href="http://go.microsoft.com/fwlink/?LinkID=234939&clcid=0x410" target="_blank">Windows Azure SDK</a>, una sottoscrizione Windows

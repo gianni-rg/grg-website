@@ -28,7 +28,7 @@ accedere direttamente all'app.
 tile sullo Start Screen chiamato "*Kid's Corner*".
 Toccandolo, si attiva uno Start Screen virtuale che i bambini
 possono costruire e personalizzare con app e giochi e fare
-qualunque altra cosa  con il telefono dei genitori. Allo
+qualunque altra cosa  con il telefono dei genitori. Allo
 stesso tempo, i genitori possono definire e configurare le app e le
 funzionalità permesse, proteggendole tramite PIN.  
 

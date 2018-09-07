@@ -19,7 +19,7 @@ Ciao a tutti. Dopo l'annuncio a *//Build* ad inizio mese, volevo segnalarvi il *
 
 Gli eventi saranno gratuiti e con circa la stessa agenda (nel corso di una giornata intera coprianno svariati temi, tra cui Win32/XAML apps, PWA, Azure, Windows, Office, AI/Machine Learning e Mixed Reality).
 
-Io sarò uno degli speaker a *Milano*, insieme ad altri amici di Microsoft ed esperti MVP. 
+Io sarò uno degli speaker a *Milano*, insieme ad altri amici di Microsoft ed esperti MVP. 
 
 Per partecipare *è richiesta la registrazione*. Ecco qui i link con i dettagli per le due giornate:
 

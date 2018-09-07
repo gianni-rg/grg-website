@@ -21,7 +21,7 @@ Freato
     *
 
 *   **MVVM**
-    **Pattern**,** ** *Matteo
+    **Pattern**,**** *Matteo
 Pagani*
 
 *   **Lens App and Imaging SDK**, *Marco

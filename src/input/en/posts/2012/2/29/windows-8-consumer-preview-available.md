@@ -8,7 +8,7 @@ RedirectFrom: en/2012/2/29/windows-8-consumer-preview-available.aspx
 TranslatedRefs: it/post/2012/2/29/disponibile-windows-8-consumer-preview.md
 DisqusId: 116428F01C7421DBBF40010E965CD8F3C1C28A7482BF8B8311243EB4F82767A0
 ---
-The **Windows 8 Consumer preview** and **VS11 Beta** are now available.  If you want, you can download and try them by yourself!
+The **Windows 8 Consumer preview** and **VS11 Beta** are now available. If you want, you can download and try them by yourself!
 
 Here's a number of starting links:
 

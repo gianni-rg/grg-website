@@ -34,7 +34,7 @@ mercato.</div>
 
 *   <div style="text-align: justify;">**Windows Embedded 8
 Industry**, una piattaforma *pre-confezionata,*
-basata su Windows 8,  che fornisce tutte le funzionalità
+basata su Windows 8,  che fornisce tutte le funzionalità
 principali di cui i dispositivi retail (*Point-of-Service -
 POS*), finanziari e medicali richiedono, come avanzati
 meccanismi di protezione e sicurezza, personalizzazione

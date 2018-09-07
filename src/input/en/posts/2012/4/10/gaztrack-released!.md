@@ -14,7 +14,7 @@ DisqusId: 6D2981D55C6AEE529E7BC95D95A7CFBD928718C105E25EBA14C119EC95FA664A
 
 MAIN FEATURES:
 
-* User friendly interface: it's fast to add a new refuel entry; it remembers  some of the settings to save your input time
+* User friendly interface: it's fast to add a new refuel entry; it remembers some of the settings to save your input time
 * List all you refuel history in a table view with all important information
 * Configurable American/Metric units
 

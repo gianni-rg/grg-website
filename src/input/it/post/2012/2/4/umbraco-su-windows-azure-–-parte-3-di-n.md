@@ -15,7 +15,7 @@ Questa è il terzo post della serie *Umbraco su Windows Azure*. Nel <a href="/it
 
 ## Umbraco Accelerator Lite
 
-Quando mi sono imbattuto nei difetti descritti nel post precedente, ho pensato che usare Umbraco su Windows Azure potesse costare di più che con un servizio di hosting dedicato.  Non potevo però credere che non ci fossero altri modi per gestire la sincronizzazione. Qualcosa doveva essere fatto, e così ho iniziato a lavorarci.
+Quando mi sono imbattuto nei difetti descritti nel post precedente, ho pensato che usare Umbraco su Windows Azure potesse costare di più che con un servizio di hosting dedicato.  Non potevo però credere che non ci fossero altri modi per gestire la sincronizzazione. Qualcosa doveva essere fatto, e così ho iniziato a lavorarci.
 
 Dopo alcuni giorni di analisi, monitoraggio e rielaborazioni, ho trovato una soluzione alternativa basata su *file di notifica*:
 
@@ -61,7 +61,7 @@ sincronizzazione viene iniziata.</div>
 
 Bingo! *Basta transazioni inutili solo per capire se una sincronizzazione deve essere fatta oppure no*. Naturalmente le transazioni per recuperare la lista dei blob e per aggiornare i file devono comunque essere fatte, *ma solo quando effettivamente serve*.
 
-La soluzione è ottimale e necessaria per la sincronizzazione blob-file locali. Per minimizzare l'uso di SQL Azure, l'approccio a file è stato mantenuto  per la sincronizzazione file locali-blob. Questo comportamento si potrebbe evitare e tornare alla sincronizzazione dell'Accelerator originario: questo perché l'accesso al file system non costa nulla. Ma essendo in fase di ottimizzazione, perché non ridurre anche l'accesso al file system ed evitare troppi I/O su disco, che potrebbero rallentare le prestazioni dell'istanza? Così, nell'Lite Accelerator, il monitor controlla le modifiche locali solo quando il file sentinella esiste. Altrimenti, *non fa nulla*!
+La soluzione è ottimale e necessaria per la sincronizzazione blob-file locali. Per minimizzare l'uso di SQL Azure, l'approccio a file è stato mantenuto  per la sincronizzazione file locali-blob. Questo comportamento si potrebbe evitare e tornare alla sincronizzazione dell'Accelerator originario: questo perché l'accesso al file system non costa nulla. Ma essendo in fase di ottimizzazione, perché non ridurre anche l'accesso al file system ed evitare troppi I/O su disco, che potrebbero rallentare le prestazioni dell'istanza? Così, nell'Lite Accelerator, il monitor controlla le modifiche locali solo quando il file sentinella esiste. Altrimenti, *non fa nulla*!
 
 Un'altra piccola ottimizzazione si potrebbe ancora fare, notando che (probabilmente), dopo la fase di setup e configurazione iniziale, le modifiche ai file locali non saranno così frequenti. E allora, invece di far eseguire ogni secondo il processo di sincronizzazione, si potrebbe rallentarlo (e renderlo configurabile esternamente tramite il file di configurazione del Web Role).
 
@@ -92,7 +92,7 @@ Per quelli che vogliono provarlo subito, queste sono le cose principali da fare 
 SQL Azure
 2.  Nel vostro SQL Server *locale*, create un utente DB e 2
 database vuoti, uno per il backend di Umbraco e uno per le sessioni
-ASP.NET.  Date al nuovo utente il ruolo di dbOwner role su
+ASP.NET.  Date al nuovo utente il ruolo di dbOwner role su
 entrambi i database. Eseguite gli script contenuti in <span style="font-family: 'Courier New';">UmbracoAcceleratorLite\
 SiteDeployer\db\InstallSqlState.sql</span> per creare il DB delle
 sessioni ASP.NET.

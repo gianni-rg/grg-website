@@ -10,7 +10,7 @@ RedirectFrom: it/2016/9/29/future-decoded-2016.aspx
 TranslatedRefs: en/posts/2016/9/29/future-decoded-2016.md
 DisqusId: B67BAC557B45F213F6319209AD1AAB879EA5B92D7CA648CDEC2E75427A5EFD2C
 ---
-Dopo il successo dello scorso anno a Roma, **<a href="http://www.futuredecoded.it" target="_blank">Future Decoded 2016</a>** approda **a Milano il 6 e 7 Ottobre**, al *Palazzo del Ghiaccio*: Microsoft, con il supporto degli organizzatori dei Community Days, organizza una serie di conferenze, workshop e corsi dedicati ad imprese e innovazione.
+Dopo il successo dello scorso anno a Roma, **<a href="http://www.futuredecoded.it" target="_blank">Future Decoded 2016</a>** approda **a Milano il 6 e 7 Ottobre**, al *Palazzo del Ghiaccio*: Microsoft, con il supporto degli organizzatori dei Community Days, organizza una serie di conferenze, workshop e corsi dedicati ad imprese e innovazione.
 
 L'appuntamento prevede una due giorni completamente dedicata alla formazione, per approfondire le potenzialità delle nuove tecnologie e discutere di innovazione: si prevedono circa un migliaio di persone tra **sviluppatori, professionisti IT** e **manager** oltre che numerosi ospiti. L'<a href="http://aka.ms/ttg" target="_blank">evento è già sold-out</a>, ma tutti coloro che non potranno partecipare, comunque, potranno **iscriversi gratuitamente** alla **<a href="https://aka.ms/fd_digital_registrazione" target="_blank">Digital Live Event</a>**, diretta streaming con contenuti esclusivi e possibilità di porre domande agli speaker.
 

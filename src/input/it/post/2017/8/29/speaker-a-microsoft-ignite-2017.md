@@ -17,7 +17,7 @@ Ciao a tutti,
 
 ho il piacere di annunciarvi che sono stato selezionato come speaker alla conferenza <a href="https://www.microsoft.com/en-us/ignite/default.aspx" target="_blank">Microsoft Ignite 2017</a>, in Orlando (Florida, USA). Segnatelo sul calendario, **25-29 Settembre**!
 
-Se siete ad Ignite, venite ad ascoltare la mia sessione "<a href="https://myignite.microsoft.com/sessions/55873" target="_blank">Delivering an over-the-top TV platform using Microsoft Azure</a>": parlerò della fantastica infrastruttura e dei servizi che stiamo sviluppando per i nostri clienti sportivi, sfruttando tecnologie Microsoft e Azure, per distribuire e gestire un servizio TV OTT scalabile, flessibile, affidabile e disponibile a livello mondiale su 11 differenti piattaforme, da mobile (iOS/Android) alle smart TV, incluse le console (Xbox/PS4) e il web. 
+Se siete ad Ignite, venite ad ascoltare la mia sessione "<a href="https://myignite.microsoft.com/sessions/55873" target="_blank">Delivering an over-the-top TV platform using Microsoft Azure</a>": parlerò della fantastica infrastruttura e dei servizi che stiamo sviluppando per i nostri clienti sportivi, sfruttando tecnologie Microsoft e Azure, per distribuire e gestire un servizio TV OTT scalabile, flessibile, affidabile e disponibile a livello mondiale su 11 differenti piattaforme, da mobile (iOS/Android) alle smart TV, incluse le console (Xbox/PS4) e il web. 
 
 Dettagli della sessione:
 

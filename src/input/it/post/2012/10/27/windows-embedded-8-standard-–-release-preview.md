@@ -28,7 +28,7 @@ multi-touch, Internet Explorer 10 e molto altro.
 collegarsi alle cose importanti all'interno e all'esterno delle
 quattro mura.
 
-*   **Dedicato**   
+*   **Dedicato**   
 
  Progettate una soluzione dedicata a compiti specifici, grazie a
 strumenti di sviluppo potenti, nuove funzionalità di protezione,
@@ -41,11 +41,11 @@ vostri clienti più esigenti.
 sicurezza da remoto, collegandolo a infrastrutture IT per
 estenderne funzionalità e intelligenza.
 
-*   **Sicuro   
+*   **Sicuro   
 
     ** Sfruttando le nuove le tecnologie presenti in Windows 8,
-è possibile proteggere i dispositivi, i dati e la rete, per 
-un'esperienza  assolutamente sicura.
+è possibile proteggere i dispositivi, i dati e la rete, per 
+un'esperienza  assolutamente sicura.
 
 In ufficio, insieme ai miei colleghi *Beppe Platania* e *Marina Sabetta*, abbiamo già assemblato alcune immagini di sistema e le abbiamo installate su alcuni dispositivi. E' semplicemente fantastico!
 

@@ -90,7 +90,7 @@ Any MonoGame-based project for Windows 8 start with the following steps:
 
 Open **Visual Studio 2012** and select **New Project**. Under **Templates**, select **Visual C#**, you should see the MonoGame project templates listed. Select the **MonoGame Game (XAML)**. Name the project **Win8Game** and ensure that the option to "**Create** **directory for solution**" is checked.
 
-![Figure 1 - Visual Studio 2012 with MonoGame templates](/assets/images/Windows-Live-Writer_86605063ebd9_A5CF_Figure1_3.png) **Figure 1** - *Visual Studio 2012 with MonoGame templates*
+![Figure 1 - Visual Studio 2012 with MonoGame templates](/assets/images/Windows-Live-Writer_86605063ebd9_A5CF_Figure1_3.png)**Figure 1** - *Visual Studio 2012 with MonoGame templates*
 
 ## Step 2 - Test MonoGame environment
 
@@ -106,7 +106,7 @@ If it doesn't work or there are compilation errors, check MonoGame references (f
 
 We need to ensure that the Solution has the correct references to the MonoGame Framework and its dependencies. Right click on your Solution in the *Visual Studio Solution Explorer* and select **Add ->** **Existing Project**.
 
- ![Figure 2 - Add an existing project to Solution ](/assets/images/Windows-Live-Writer_86605063ebd9_A5CF_Figure2_3.png)  
+![Figure 2 - Add an existing project to Solution ](/assets/images/Windows-Live-Writer_86605063ebd9_A5CF_Figure2_3.png)  
  **Figure 2** - *Add an existing project to Solution*
 
 Browse where you downloaded MonoGame source code (i.g. **C:\Users*\[user]*\Documents\Projects\MonoGame**). Select the folder named **MonoGame.Framework**. In this folder, you will find the **MonoGame.Framework.Windows8.csproj** project file. Select this file and click on **Open**.

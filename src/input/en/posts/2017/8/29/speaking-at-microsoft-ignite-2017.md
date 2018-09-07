@@ -15,7 +15,7 @@ DisqusId: AF93835995F42EC395BEB93FE13A8A3FEC87DB4FD0EDF3E6F256EF295790A57A
 ---
 Hi all, I'm happy to announce that I've been selected as speaker at the <a href="https://www.microsoft.com/en-us/ignite/default.aspx" target="_blank">Microsoft Ignite 2017 conference</a>, in Orlando (Florida, USA). Go ahead, sign up and block off **September 25-29** on your calendar now!
 
-If you're at Ignite, come to hear my session "<a href="https://myignite.microsoft.com/sessions/55873" target="_blank">Delivering an over-the-top TV platform using Microsoft Azure</a>": I'll be talking about the amazing infrastructure and services we're building for our world-scale sport customers, leveraging Microsoft technologies and Azure, to deliver and run an OTT TV service which is scalable, flexible, reliable and available on 11 different platforms, from mobile (iOS/Android) to smart TVs, including consoles (Xbox/PS4) and web. 
+If you're at Ignite, come to hear my session "<a href="https://myignite.microsoft.com/sessions/55873" target="_blank">Delivering an over-the-top TV platform using Microsoft Azure</a>": I'll be talking about the amazing infrastructure and services we're building for our world-scale sport customers, leveraging Microsoft technologies and Azure, to deliver and run an OTT TV service which is scalable, flexible, reliable and available on 11 different platforms, from mobile (iOS/Android) to smart TVs, including consoles (Xbox/PS4) and web. 
 
 Session details:
 

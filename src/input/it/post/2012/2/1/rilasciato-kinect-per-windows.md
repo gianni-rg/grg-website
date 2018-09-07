@@ -29,11 +29,11 @@ migliorate**</div>
 *   <div style="text-align: justify;">**Miglioramenti
 dell'SDK**</div>
 
-> L'SDK per Windows offre un *tracciamento dello scheletro migliorato*,  con la possibilità di scegliere quale utente seguire, e gli ultimi *componenti Microsoft Speech* con migliore precisione nel riconoscimento vocale. Sono state migliorate anche la consistenza e la facilità di utilizzo delle API.
+> L'SDK per Windows offre un *tracciamento dello scheletro migliorato*,  con la possibilità di scegliere quale utente seguire, e gli ultimi *componenti Microsoft Speech* con migliore precisione nel riconoscimento vocale. Sono state migliorate anche la consistenza e la facilità di utilizzo delle API.
 
 *   <div style="text-align: justify;">**Flussi raw dei
 sensori**</div>
 
-> E' stato aggiunto il supporto sia per la modalità *Default* e sia per la modalità *Near*. Forniscono anche maggiori informazioni su valori di profondità fuori scala rispetto a quanto fatto in precedenza. Sono stati introdotti anche miglioramenti nella sincronizzazione tra i flussi video e di profondità, mapping tra colore e profondità e funzioni a risoluzione piena. 
+> E' stato aggiunto il supporto sia per la modalità *Default* e sia per la modalità *Near*. Forniscono anche maggiori informazioni su valori di profondità fuori scala rispetto a quanto fatto in precedenza. Sono stati introdotti anche miglioramenti nella sincronizzazione tra i flussi video e di profondità, mapping tra colore e profondità e funzioni a risoluzione piena. 
 
 Sebbene le nuove caratteristiche siano utilizzabili **solo** con il nuovo sensore *Kinect for Windows*, per lo sviluppo è ancora comunque possibile usare la versione del sensore per Xbox 360. E' caldamente consigliato, però, in caso di sviluppo di prodotti commerciali, passare al più presto al nuovo hardware.

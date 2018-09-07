@@ -24,7 +24,7 @@ sono una serie di concetti comuni che saranno trattati in una
 sessione di solo codice.
 
 *   **Organizzare al meglio il proprio codice: il pattern
-MVVM**,** ** *Matteo Pagani*  
+MVVM**,** ** *Matteo Pagani*  
 
  Quando si sviluppa un'applicazione Windows Phone complessa,
 l'approccio tradizionale basato sull'utilizzo del code-behind
@@ -56,7 +56,7 @@ sessione.
 
     * Avete bisogno di un back-end per la vostra applicazione
 mobile o di inviare delle notifiche push, anche in maniera
-cross-platform?  In questa sessione si vedrà come creare un
+cross-platform?  In questa sessione si vedrà come creare un
 back-end unico, scalabile e sicuro, on the Cloud per le proprie
 app, siano esse Windows Phone, Windows Store ma anche iOS o Android
 e come inviare notifiche push in modo semplice a milioni di
@@ -72,4 +72,4 @@ permette di implementare, con pochi passi, scenari di comunicazione
 tra dispositivi diversi. In questa sessione si scoprirà come
 implementare queste funzionalità usando le Proximity API.
 
- Se siete interessati, registratevi subito <a href="https://msevents.microsoft.com/cui/EventDetail.aspx?culture=it-IT&EventID=1032559653&IO=%2ftsmzBixfuGV%2bsSTPhOSTA%3d%3d" target="_blank">qui</a>!
+ Se siete interessati, registratevi subito <a href="https://msevents.microsoft.com/cui/EventDetail.aspx?culture=it-IT&EventID=1032559653&IO=%2ftsmzBixfuGV%2bsSTPhOSTA%3d%3d" target="_blank">qui</a>!

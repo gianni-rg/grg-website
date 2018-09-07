@@ -47,7 +47,7 @@ Questi sono i passi per installare correttamente l'SDK:
 <div style="margin-left: 2em;">
 
 1.  Scaricare e installare l'ultima versione di **Games for
-Windows - LIVE Redistributable ** da <a href="http://www.xbox.com/en-US/LIVE/PC/DownloadClient" target="_blank">http://www.xbox.com/en-US/LIVE/PC/DownloadClient</a>
+Windows - LIVE Redistributable ** da <a href="http://www.xbox.com/en-US/LIVE/PC/DownloadClient" target="_blank">http://www.xbox.com/en-US/LIVE/PC/DownloadClient</a>
 2.  Installare Windows Phone SDK 7.1
 </div>
 

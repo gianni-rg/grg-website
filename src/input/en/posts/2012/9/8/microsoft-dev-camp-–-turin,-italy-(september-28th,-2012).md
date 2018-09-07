@@ -14,7 +14,7 @@ RedirectFrom: en/2012/9/8/microsoft-dev-camp-–-turin,-italy-(september-28th,-2
 TranslatedRefs: it/post/2012/9/8/microsoft-dev-camp-–-torino-(28-settembre-2012).md
 DisqusId: F67156CCE37780FC16CFA24742CCF6C370612E76F3824B47DF9FEBC57ADEC835
 ---
-On **September 28th**, there will be a *Microsoft Dev Camp* event hosted by MIC (Microsoft Innovation Center) Torino, like the ones organized in <a href="https://msevents.microsoft.com/CUI/EventDetail.aspx?EventID=1032524617&culture=it-IT" target="_blank">Milan</a> and  <a href="https://msevents.microsoft.com/CUI/EventDetail.aspx?EventID=1032524618&culture=it-it" target="_blank">Rome</a>.
+On **September 28th**, there will be a *Microsoft Dev Camp* event hosted by MIC (Microsoft Innovation Center) Torino, like the ones organized in <a href="https://msevents.microsoft.com/CUI/EventDetail.aspx?EventID=1032524617&culture=it-IT" target="_blank">Milan</a> and <a href="https://msevents.microsoft.com/CUI/EventDetail.aspx?EventID=1032524618&culture=it-it" target="_blank">Rome</a>.
 
 Events are free and represent a great opportunity to meet other developers and have fun by developing **Windows Azure**, **Windows Phone, Windows 8** applications, with the exclusive support by **Microsoft experts** and **Community** members (especially, in Turin, with the support of <a href="http://www.bepseng.it/" target="_blank">BEPS Engineering</a> and <a href="http://www.torinotechnologiesgroup.it/Home.aspx" target="_blank">TTG - Torino Technologies Group</a>).
 

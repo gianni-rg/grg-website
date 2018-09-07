@@ -15,7 +15,7 @@ DisqusId: F7DF2D9DA66EF91F9CC348CB38B5831D8F833FD1F723D5B25BA0541B3FA7B324
 ---
 **Beps Engineering**, in collaboration with **Jusan Network**, is pleased to invite you to attend the event free of charge on the theme of the **Internet Of Things**.
 
-The event is scheduled for **Friday, November 28, 2014** in **Turin**, at the **I3P Incubator of the Politecnico di Torino**, located in Via Pier Carlo Boggio 59. For more information and to find out the complete program, please refer to <a href="http://internetofthings.university" target="_blank">internetofthings.university</a>**.**  
+The event is scheduled for **Friday, November 28, 2014** in **Turin**, at the **I3P Incubator of the Politecnico di Torino**, located in Via Pier Carlo Boggio 59.For more information and to find out the complete program, please refer to<a href="http://internetofthings.university" target="_blank">internetofthings.university</a>**.**  
 
  **The event is free of charge, but the number of places is limited.**
 
@@ -36,7 +36,7 @@ This technology is spreading rapidly abroad and soon the rules of the market wil
 **Which are the application areas?**
 
 *   Logistics
-*   Transportation 
+*   Transportation
 *   Retail
 *   Medical
 *   Entertainment
@@ -44,4 +44,4 @@ This technology is spreading rapidly abroad and soon the rules of the market wil
 *   E-commerce
 *   and more …
 
-There are no limits to the improvements that this technology can offer. Are you ready to change? Come to the event, we'll discuss together!
+There are no limits to the improvements that this technology can offer.Are you ready to change? Come to the event, we'll discuss together!

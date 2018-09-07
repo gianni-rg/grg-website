@@ -61,11 +61,11 @@ In future posts, we'll see detailed step-by-step instructions on how to install 
 
 ## Installation steps overview
 
-For those who want to try it now, here there are the main tasks to do (for details on *some* of the operations, you can refer directly to the *Azure Accelerator for Umbraco* <a href="https://github.com/Jeavon/wa-accelerator-umbraco/wiki/Getting-Started" target="_blank">Getting Started</a> page and <a href="https://github.com/Jeavon/wa-accelerator-umbraco/wiki/Deployment" target="_blank">Deployment</a> guide).
+For those who want to try it now, here there are the main tasks to do (for details on *some* of the operations, you can refer directly to the *Azure Accelerator for Umbraco*<a href="https://github.com/Jeavon/wa-accelerator-umbraco/wiki/Getting-Started" target="_blank">Getting Started</a> page and <a href="https://github.com/Jeavon/wa-accelerator-umbraco/wiki/Deployment" target="_blank">Deployment</a> guide).
 
 1.  On Windows Azure, activate a Storage service and an SQL Azure Server
 2.  In your *local* SQL Server, create a DB user and 2 empty databases, one for Umbraco backend and one for ASP.NET session.
-Give the newly created user a dbOwner role on both databases. Run the SQL scripts contained in <span style="font-family: 'Courier New';">UmbracoAcceleratorLite\SiteDeployer\db\InstallSqlState.sql</span> to create the ASP.NET session DB. 
+Give the newly created user a dbOwner role on both databases. Run the SQL scripts contained in <span style="font-family: 'Courier New';">UmbracoAcceleratorLite\SiteDeployer\db\InstallSqlState.sql</span> to create the ASP.NET session DB.
 3.  Install a *local* Umbraco website pointing to the empty Umbraco DB created at step 2. Complete the basic Umbraco setup.
 4.  Copy UmbracoAcceleratorNotifier.dll extension to the Umbraco <span style="font-family: 'Courier New';">\bin</span> folder
 5.  Create the *Umbraco Accelerator Lite* custom table in the local Umbraco DB and prepare it for SQL Azure (you can run the

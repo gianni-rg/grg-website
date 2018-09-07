@@ -75,7 +75,7 @@ select "Windows 7" from the dropdown list.
 
 Now you can deploy and debug a Windows Phone application from VS2010 as in Windows 7. The emulator will run a little bit slower, but it works.
 
-Summarizing, here's the installation order I followed (Disclaimer: *I can't assure that it will work on your machine!*):
+Summarizing, here's the installation order I followed (Disclaimer:*I can't assure that it will work on your machine!*):
 
 1.  Windows 8 Consumer Preview 32bit
 2.  System drivers / updates
@@ -93,7 +93,7 @@ Summarizing, here's the installation order I followed (Disclaimer: *I can't ass
 14.  Zune
 15.  Visual Studio 11 Beta
 
-I just have an open issue with this installation order: **Blend 5 Beta doesn't work**. It starts, but when creating a new project from the available templates (either HTML or XAML) or opening an existing project created in VS11, it simply shows an empty solution. When trying to add an existing project to the solution, it gives a "Unsupported project" error and doesn't load it.
+I just have an open issue with this installation order:**Blend 5 Beta doesn't work**. It starts, but when creating a new project from the available templates (either HTML or XAML) or opening an existing project created in VS11, it simply shows an empty solution. When trying to add an existing project to the solution, it gives a "Unsupported project" error and doesn't load it.
 
 I'm currently exploring ways to fix that issue. I haven't tried yet, but maybe a solution could be to uninstall Expression Blend 4, re-install VS11 and then install again Expression Blend 4.
 

@@ -92,7 +92,7 @@ riferimenti
 
 Aprire **Visual Studio 2012** e scegliere **Nuovo progetto**. Sotto **Modelli**, scegliere **Visual C#**: nella lista dovrebbero essere visibili anche i modelli di progetto MonoGame. Tra quei modelli, scegliere **MonoGame Game (XAML)**. Dare il nome "**Win8Game**" al progetto e assicurarsi che sia selezionata l'opzione "**Crea directory per soluzione**".
 
-![Figura 1 - Visual Studio 2012 con i modelli MonoGame](/assets/images/Windows-Live-Writer_Videogiochi-in-Windows-8-con-MonoGame_1341F_Figura1_3.png) **Figura 1** - *Visual Studio 2012 con i modelli MonoGame*
+![Figura 1 - Visual Studio 2012 con i modelli MonoGame](/assets/images/Windows-Live-Writer_Videogiochi-in-Windows-8-con-MonoGame_1341F_Figura1_3.png) **Figura 1** - *Visual Studio 2012 con i modelli MonoGame*
 
 ## Passo 2 - Provare l'ambiente MonoGame
 
@@ -106,7 +106,7 @@ Se non funziona o ci sono errori di compilazione, controllate di avere correttam
 
 ***Seguire queste istruzioni SOLO se MonoGame è stato scaricato e/o ricompilato dai sorgenti o se non funzionano i modelli di progetto MonoGame. Se MonoGame è stato installato usando l'Installer, queste operazioni non dovrebbero servire.***
 
-Bisogna assicurarsi che la Soluzione abbia i riferimenti corretti al Framework MonoGame e alle sue dipendenze. Fare click con il tasto destro sulla Soluzione in *Esplora Soluzioni* e scegliere **Aggiungi** **->** **Progetto** **esistente**.
+Bisogna assicurarsi che la Soluzione abbia i riferimenti corretti al Framework MonoGame e alle sue dipendenze. Fare click con il tasto destro sulla Soluzione in *Esplora Soluzioni* e scegliere **Aggiungi** **->** **Progetto** **esistente**.
 
 ![Figura 2 - Aggiungere un progetto esistente alla Soluzione ](/assets/images/Windows-Live-Writer_Videogiochi-in-Windows-8-con-MonoGame_1341F_Figura2_3.png)  
  **Figura 2** - *Aggiungere un progetto esistente alla Soluzione*

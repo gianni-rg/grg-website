@@ -21,4 +21,4 @@ Have a look at the official trailer on <a href="https://www.youtube.com/watch?v=
 
 As the name suggests, **the game is all about moving inside a ring in the outer space and hitting enemy space robots that come next to you**: the more you hit, the more you score points. The more you score points, the more you are awesome. *Feedbacks from first beta users are enthusiastic*: the game proves to be very funny and also helps you in staying fit since you have to run from one part to the other of your room.
 
-What are you waiting for? Download it now for free on <a href="http://www.immotionar.com" target="_blank">Immotionar website</a>!
+What are you waiting for? Download it now for free on <a href="http://www.immotionar.com" target="_blank">Immotionar website</a>!

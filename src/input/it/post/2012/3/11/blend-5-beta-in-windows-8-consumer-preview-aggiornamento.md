@@ -16,7 +16,7 @@ Il problema consiste nel fatto che installando VS11, Blend 5 Beta, VS2010 ed Exp
 Investigando, ho trovato che creando/aprendo progetti in Blend 5, la variabile di ambiente "*VisualStudioVersion*" è impostata a 10.0, invece che 11.0. In questo modo le import di MSBuild definite in un progetto VS11 falliscono (perchè il path a cui fanno riferimento per cercare i build target non esiste).
 
 **<PropertyGroup Condition=" '$(VisualStudioVersion)' == '' ">  
-     <VisualStudioVersion>11.0</VisualStudioVersion>  
+     <VisualStudioVersion>11.0</VisualStudioVersion>  
  </PropertyGroup>**  
  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v**$(VisualStudioVersion)**\ Microsoft.Windows.UI.Xaml.CSharp.targets" />
 
@@ -28,7 +28,7 @@ La soluzione è semplice:
 VisualStudioVersion.
 
 > **<PropertyGroup <span style="text-decoration: line-through; color: red;">Condition=" '$(VisualStudioVersion)' == '' "</span>>
->      <VisualStudioVersion>11.0</VisualStudioVersion>
+>      <VisualStudioVersion>11.0</VisualStudioVersion>
 >  </PropertyGroup>**
 > 
 > Adesso è possibile aprire qualunque progetto in Blend 5 senza errori.

@@ -29,7 +29,7 @@ Wi-Fi,</span> **reti cellulari** e
     **Bluetooth** e completo supporto a <a href="http://www.windowsazure.com/en-us/" target="_blank"><span>Windows Azure</span></a>, per Intelligent
 Systems robusti e connessi
 *   <span style="font-weight: bold;">Supporto da migliaia di
-sviluppatori e </span> <a href="http://www.microsoft.com/windowsembedded/en-us/partners.aspx" target="_blank"><span style="text-decoration: underline;">partners</span></a><span style="font-weight: bold;">,</span> che hanno sviluppato soluzioni
+sviluppatori e </span> <a href="http://www.microsoft.com/windowsembedded/en-us/partners.aspx" target="_blank"><span style="text-decoration: underline;">partners</span></a><span style="font-weight: bold;">,</span> che hanno sviluppato soluzioni
 aggiuntive e add-on, incluso browser HTML5
 
 Windows Embedded Compact 2013 è uno dei <a href="http://www.zdnet.com/microsoft-updates-its-windows-embedded-roadmap-embedded-8-handheld-is-alive-7000007405/" target="_blank">vari sistemi operativi embedded che Microsoft vende</a>, ognuno dei quali è dedicato a specifici insiemi di dispositivi, modalità di impiego e sviluppatori.

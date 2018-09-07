@@ -10,7 +10,7 @@ RedirectFrom: en/2012/4/7/superwin-released!.aspx
 TranslatedRefs: it/post/2012/4/7/superwin-è-disponibile!.md
 DisqusId: 39015A97F39F6AFF8221942A61A9831DF752378979614C9DEACE9C13B1E1FFA6
 ---
-If you  are passionate about the Italian lottery game "SuperEnalotto", **Superwin** is for you!
+If you are passionate about the Italian lottery game "SuperEnalotto", **Superwin** is for you!
 
 Get the latest statistic information and all extractions archive directly on your Windows Phone. Monitor your favourite number combinations and check whether you have won!
 

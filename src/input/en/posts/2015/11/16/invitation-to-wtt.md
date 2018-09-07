@@ -18,7 +18,7 @@ I'd like to invite you to the **WTT: Wearable Tech Torino**, on **November 20-21
 
 WTT is the first exhibition in Europe dedicated exclusively to wearable technologies. During the fair, visitors will have the opportunity to try wearable devices presented by companies and startups that will take part at the event.
 
-I'll be at the <a href="http://www.immotionar.com" target="_blank">ImmotionAR</a> booth, the Beps Engineering specialized division in *Virtual Reality*, *Augmented Reality* and *Wearables*, where we will showcase our prototype solution for <a href="/www.youtube.com/watch?v=ttpOEftj9y8" target="_blank">immersivity in a virtual world</a>, that uses Kinect sensors and Oculus Rift / Gear VR. You will be able to experience the thrill of entering a virtual world where you can move freely without side effects typical of early experiences in VR!
+I'll be at the <a href="http://www.immotionar.com" target="_blank">ImmotionAR</a>booth, the Beps Engineering specialized division in *Virtual Reality*, *Augmented Reality* and *Wearables*, where we will showcase our prototype solution for <a href="/www.youtube.com/watch?v=ttpOEftj9y8" target="_blank">immersivity in a virtual world</a>, that uses Kinect sensors and Oculus Rift / Gear VR.You will be able to experience the thrill of entering a virtual world where you can move freely without side effects typical of early experiences in VR!
 
 I'll also have a talk about Virtual Reality and a workshop to learn the fundamentals to start developing VR applications in Unity 3D.
 
