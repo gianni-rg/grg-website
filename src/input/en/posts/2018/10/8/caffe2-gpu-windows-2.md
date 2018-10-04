@@ -1,8 +1,8 @@
 ---
 Title: Build Caffe2 and Detectron with GPU support on Windows (Part 2 of 2)
-Published: 2018-10-03 15:00:00
+Published: 2018-10-08 17:40:00
 Language: en
-Description: In the last couple of weeks, I had the need to test and use some custom models made with Caffe2 framework and Detectron. They are actively developed on Linux, but I needed to have them run on Windows 10 with CUDA GPU support. This post (part 2 of 2) is a step-by-step guide on how I did it, hoping it can help other people with the same need.
+Description: Few weeks ago, I had the need to test and use some custom models made with Caffe2 framework and Detectron. They are actively developed on Linux, but I needed to have them run on Windows 10 with CUDA GPU support. This post (part 2 of 2) is a step-by-step guide on how I did it, hoping it can help other people with the same need.
 Image: /assets/images/build_caffe2_win.jpg
 Tags:
 - AI
@@ -13,10 +13,10 @@ Tags:
 - Caffe2
 - Detectron
 - Object Detection
-TranslatedRefs: it/post/2018/10/3/caffe2-gpu-windows-2.md
+TranslatedRefs: it/post/2018/10/8/caffe2-gpu-windows-2.md
 DisqusId: 2AF694CB125346C8B00DEE22BA3F006AE00271FB93AD44B3AF8B9E6081742795
 ---
-In the last couple of weeks, I had the need to test and use some custom models made with <a href="https://caffe2.ai/" target="_blank">Caffe2</a> framework and <a href="https://github.com/facebookresearch/Detectron" target="_blank">Detectron</a>. They are actively developed on Linux, but I needed to have them run on **Windows 10 with CUDA GPU support**. It is possible to build Caffe2 for Windows, and a <a href="https://caffe2.ai/docs/getting-started.html?platform=windows&configuration=compile" target="_blank">guide</a> is provided, but if you need to use Detectron (*not supported on Windows, officially*), it is a bit more complicated and some changes in the source code and in the build scripts are required.
+Few weeks ago, I had the need to test and use some custom models made with <a href="https://caffe2.ai/" target="_blank">Caffe2</a> framework and <a href="https://github.com/facebookresearch/Detectron" target="_blank">Detectron</a>. They are actively developed on Linux, but I needed to have them run on **Windows 10 with CUDA GPU support**. It is possible to build Caffe2 for Windows, and a <a href="https://caffe2.ai/docs/getting-started.html?platform=windows&configuration=compile" target="_blank">guide</a> is provided, but if you need to use Detectron (*not supported on Windows, officially*), it is a bit more complicated and some changes in the source code and in the build scripts are required.
 
 In the previous [post](/en/posts/2018/10/03/caffe2-gpu-windows-1.html), I detailed all the steps required to build **Caffe2 on Windows 10 with CUDA 9/10 support**. You need to follow all those steps, if not already done, prior to continue with this guide, where I'll show you how to build and run **Detectron on Windows**.
 
@@ -26,7 +26,7 @@ In the previous [post](/en/posts/2018/10/03/caffe2-gpu-windows-1.html), I detail
 
 ## Step 0: prerequisites
 
-To successfully build and run Detectron on Windows 10, the same pre-requisites for Caffe2 on Windows 10 apply. Even if you can build and run Caffe2 on CPU only, **GPU CUDA support IS REQUIRED for Detectron**.
+To successfully build and run Detectron on Windows 10, the same pre-requisites for Caffe2 on Windows 10 apply. Even if you can build and run Caffe2 on CPU only, **CUDA GPU support IS REQUIRED for Detectron**.
 
 ---
 
@@ -82,7 +82,7 @@ We're going to prepare a virtual environment to run our Detectron experiments. Y
     (caffe2env)> pip install -r requirements.txt
     ```
 
-8. Add missing packages from requirements:
+8. Add missing packages from *requirements.txt.*:
 
     ```cmd
     (caffe2env)> pip install protobuf
@@ -113,7 +113,7 @@ We're going to prepare a virtual environment to run our Detectron experiments. Y
     > mkdir c:\projects\cocoapi-python27
     > cd c:\projects\cocoapi-python27
     > git clone --recursive https://github.com/neoglez/cocoapi
-    (caffe2env)> PythonAPI\python setup.py build_ext install 
+    (caffe2env)> PythonAPI\python setup.py build_ext install
     ```
 
 11. The custom Caffe2 we have built uses a workaround to make Detectron operators working in Windows. A fix is needed to avoid loading them as an external dynamic library. Please note that *custom* operators are NOT supported (if you need them, a similar workaround may work, too).
@@ -122,11 +122,11 @@ We're going to prepare a virtual environment to run our Detectron experiments. Y
 
     ```python
     def get_detectron_ops_lib():
-	print("In Windows, Detectron ops are built-in. No need to load dynamically. Ignore the following warning.")
-	return ""
+    print("In Windows, Detectron ops are built-in. No need to load dynamically. Ignore the following warning.")
+    return ""
 
     def get_custom_ops_lib():
-	print("In Windows, Detectron custom ops are currently not supported. Ignore the following warning.")
+    print("In Windows, Detectron custom ops are currently not supported. Ignore the following warning.")
     return ""
     ```
 
@@ -147,4 +147,4 @@ It should run some test using Caffe2 Detectron operators... if they all pass, yo
 
 ---
 
-That's all. Another long step-by-step guide, but there should be everything to obtain Detectron working on Windows. In the next post, I'll show you the reasons I needed to run Caffe2 and Detectron. Stay tuned!
+That's all. Another long step-by-step guide, but there should be everything to obtain Detectron working on Windows.
