@@ -1,6 +1,6 @@
 ---
 Title: Build Caffe2 and Detectron with GPU support on Windows (Part 2 of 2)
-Published: 2018-10-09 11:15:00
+Published: 2018-10-09 09:15:00
 Language: en
 Description: Few weeks ago, I had the need to test and use some custom models made with Caffe2 framework and Detectron. They are actively developed on Linux, but I needed to have them run on Windows 10 with CUDA GPU support. This post (part 2 of 2) is a step-by-step guide on how I did it, hoping it can help other people with the same need.
 Image: /assets/images/build_caffe2_win.jpg
