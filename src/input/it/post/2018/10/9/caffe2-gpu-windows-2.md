@@ -1,6 +1,6 @@
 ---
 Title: Compilare Caffe2 e Detectron con supporto GPU su Windows (Parte 2 di 2)
-Published: 2018-10-08 17:40:00
+Published: 2018-10-09 11:15:00
 Language: it
 Description: Nelle ultime settimane, ho avuto bisogno di provare ed usare alcuni modelli personalizzati implementati con il framework Caffe2 e Detectron. Sono progetti attivamente sviluppati su Linux, ma ho avuto bisogno di farli girare su Windows 10 con supporto GPU CUDA. Questo post (parte 2 di 2) è una guida passo-passo su come l'ho fatto, sperando che possa essere utile ad altre persone con le stesse necessità.
 Image: /assets/images/build_caffe2_win.jpg
@@ -13,7 +13,7 @@ Tags:
 - Caffe2
 - Detectron
 - Object Detection
-TranslatedRefs: en/posts/2018/10/8/caffe2-gpu-windows-2.md
+TranslatedRefs: en/posts/2018/10/9/caffe2-gpu-windows-2.md
 DisqusId: 36CB81AFDED3490D8BCCE63BD28519A63671108DCD5B46FB925F27C2A072AD65
 ---
 Qualche settimana fa, ho avuto bisogno di provare ed usare alcuni modelli personalizzati implementati con il framework <a href="https://caffe2.ai/" target="_blank">Caffe2</a> e <a href="https://github.com/facebookresearch/Detectron" target="_blank">Detectron</a>. Sono progetti attivamente sviluppati su Linux, ma ho avuto bisogno di farli girare su **Windows 10 con supporto GPU CUDA**. E' possibile compilare Caffe2 per Windows, e una <a href="https://caffe2.ai/docs/getting-started.html?platform=windows&configuration=compile" target="_blank">guida</a> &egrave; disponibile, ma se c'&egrave; bisogno di usare Detectron (*non supportato ufficialmente su Windows*), &egrave; un po' pi&ugrave; complicato, e sono necessarie alcune modifiche ai sorgenti e agli script di compilazione.

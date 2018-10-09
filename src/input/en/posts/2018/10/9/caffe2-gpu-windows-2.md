@@ -1,6 +1,6 @@
 ---
 Title: Build Caffe2 and Detectron with GPU support on Windows (Part 2 of 2)
-Published: 2018-10-08 17:40:00
+Published: 2018-10-09 11:15:00
 Language: en
 Description: Few weeks ago, I had the need to test and use some custom models made with Caffe2 framework and Detectron. They are actively developed on Linux, but I needed to have them run on Windows 10 with CUDA GPU support. This post (part 2 of 2) is a step-by-step guide on how I did it, hoping it can help other people with the same need.
 Image: /assets/images/build_caffe2_win.jpg
@@ -13,12 +13,12 @@ Tags:
 - Caffe2
 - Detectron
 - Object Detection
-TranslatedRefs: it/post/2018/10/8/caffe2-gpu-windows-2.md
+TranslatedRefs: it/post/2018/10/9/caffe2-gpu-windows-2.md
 DisqusId: 2AF694CB125346C8B00DEE22BA3F006AE00271FB93AD44B3AF8B9E6081742795
 ---
 Few weeks ago, I had the need to test and use some custom models made with <a href="https://caffe2.ai/" target="_blank">Caffe2</a> framework and <a href="https://github.com/facebookresearch/Detectron" target="_blank">Detectron</a>. They are actively developed on Linux, but I needed to have them run on **Windows 10 with CUDA GPU support**. It is possible to build Caffe2 for Windows, and a <a href="https://caffe2.ai/docs/getting-started.html?platform=windows&configuration=compile" target="_blank">guide</a> is provided, but if you need to use Detectron (*not supported on Windows, officially*), it is a bit more complicated and some changes in the source code and in the build scripts are required.
 
-In the previous [post](/en/posts/2018/10/03/caffe2-gpu-windows-1.html), I detailed all the steps required to build **Caffe2 on Windows 10 with CUDA 9/10 support**. You need to follow all those steps, if not already done, prior to continue with this guide, where I'll show you how to build and run **Detectron on Windows**.
+In the previous [post](/en/posts/2018/10/04/caffe2-gpu-windows-1.html), I detailed all the steps required to build **Caffe2 on Windows 10 with CUDA 9/10 support**. You need to follow all those steps, if not already done, prior to continue with this guide, where I'll show you how to build and run **Detectron on Windows**.
 
 **DISCLAIMER: this guide has been written and tested in the last week of __September 2018__. I've tried and tested it on 3 different Windows dev machines (2 with CUDA 9.2, 1 with CUDA 10), successfully. But I can't 100% ensure it works on yours, nor I can provide you direct support in case something does not work. Please check carefully the version of packages, dependencies, git commits, etc. It is quite possible that newer releases (of any dependency, package, core or 3rd party source code, tools) may brake the build.**
 

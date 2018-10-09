@@ -22,7 +22,7 @@ After many long frustrating days of trial and error, failed builds and scraping 
 
 This post, divided in 2 parts, is a step-by-step guide on how __I did it__, hoping it can help other people with the same need. *Plan at least 1 day of work, to prepare your build environment.* There are for sure better ways to handle some of the fixes and changes, but I hadn't enough time to dig deeper into them. *If you find out any improvements, please let me know*.
 
-<!---([Here , you can find Part 2](/en/posts/2018/10/03/caffe2-gpu-windows-2.html), with all the steps required to build and run **Detectron on Windows 10**. You need to follow all the steps of this post, prior to continue with the next.)-->
+[Here, you can find Part 2](/en/posts/2018/10/09/caffe2-gpu-windows-2.html), with all the steps required to build and run **Detectron on Windows 10**. You need to follow all the steps of this post, prior to continue with the next.
 
 **DISCLAIMER: this guide has been written and tested in the last week of __September 2018__. I've tried and tested it on 3 different Windows dev machines (2 with CUDA 9.2, 1 with CUDA 10), successfully. But I can't 100% ensure it works on yours, nor I can provide you direct support in case something does not work. Please check carefully the version of packages, dependencies, git commits, etc. It is quite possible that newer releases (of any dependency, package, core or 3rd party source code, tools) may brake the build.**
 
@@ -244,4 +244,4 @@ To verify that your build with CUDA support is working, you can test with the fo
 It should print a **number > 0**. If not, or any other error occurs, your Caffe2 build has some issue (i.e. wrong build configuration, missing dependencies, missing DLLs, no supported CUDA device available, etc.). Check on the Internet, on StackOverflow, GitHub repo issues for ideas and clues on how to solve them.
 
 ---
-That's all for now. A quite long guide, but there should be everything to obtain a Caffe2 build with all the required components needed to build and run Detectron. In the next post<!--[post](/en/posts/2018/10/03/caffe2-gpu-windows-2.html)-->, I'll show you how to do it on Windows. Stay tuned!
+That's all for now. A quite long guide, but there should be everything to obtain a Caffe2 build with all the required components needed to build and run Detectron. In the next [post](/en/posts/2018/10/09/caffe2-gpu-windows-2.html), I'll show you how to do it on Windows. Stay tuned!
