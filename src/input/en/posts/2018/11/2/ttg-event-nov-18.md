@@ -2,6 +2,7 @@
 Title: TTG November 2018 - What's new in Azure DevOps and .NET
 Published: 2018-11-02 12:00:00
 Language: en
+Description: Last announcement of the day, on November 22nd there will be the monthly Torino Technologies Group (TTG) meetup. We changed the place, now we're hosted by Toolbox Coworking, but still between 6PM and 8PM.
 Image: /assets/images/ttg-nov-2018.jpg
 Tags:
 - community
