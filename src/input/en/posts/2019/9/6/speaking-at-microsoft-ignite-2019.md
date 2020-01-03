@@ -30,4 +30,9 @@ This year I've been selected for 2 theater sessions. If you're at Microsoft Igni
 
 Sessions scheduling is not available yet, but I will share it here, as soon as they are defined by Microsoft.
 
+UPDATE 2019/11/01:
+
+* **Applied Deep Learning: new kind of multimedia content** will be on November 4th, h2.15-2.35PM, The Hub: Theater 10
+* **Sport actions recognition in video using Deep Learning at scale** will be on November 7th, h3.05-3.25PM, The Hub: Theater 10
+
 See you at Ignite.

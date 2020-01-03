@@ -3,7 +3,7 @@ Title: WPC 2018, Milano, 27-29 Novembre
 Published: 2018-11-02 11:30:00
 Language: it
 Image: /assets/images/wpc2018-logo.png
-Description: I'd like to invite you to the traditional yearly appointment with WPC 2018, the main Italian conference about Microsoft technologies. This is the 25th edition, organized in Milan (Italy) from November 27th to November 29th by OverNet Education. The session list is ready and available online; also this year, it is very rich with sessions about dev tools, AI, web/app developement and Mixed Reality.
+Description: Volevo invitarvi al consueto appuntamento annuale con WPC 2018, la principale conferenza italiana sulle tecnologie Microsoft. Quest'anno è la 25esima edizione, organizzata a Milano dal 27 al 29 novembre da OverNet Education. L'agenda è completa e disponibile online. Anche quest'anno è ricca di sessioni molto interessanti, che spaziano dalle novità sugli strumenti di sviluppo, AI, sviluppo web e apps e Mixed Reality.
 Tags:
 - cloud
 - microsoft azure

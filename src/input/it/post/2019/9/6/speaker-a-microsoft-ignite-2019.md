@@ -3,7 +3,7 @@ Title: Speaker a Microsoft Ignite 2019
 Published: 2019-09-06 19:30:00
 Language: it
 Image: /assets/images/MSFT_Ignite_2019_Asset_BOM_Website.jpg
-Description: Hi all, I'm happy to announce that I've been selected as speaker at the Microsoft Ignite 2019 conference, in Orlando, FL (USA). The conference will take place on November 4-8, 2019. That's a great honour, and I'm very glad to be part of the speaker staff again, as did in Microsoft Ignite 2017 conference.
+Description: Ciao a tutti. Sono felice di annunciare che son stato scelto come speaker per Microsoft Ignite 2019, a Orlando, FL (USA). La conferenza si terrà dal 4 all'8 Novembre 2019. E' un grande onore, e sono molto contento di far parte dello staff speaker di nuovo, come avevo già fatto per Microsoft Ignite 2017.
 Tags:
 - cloud
 - windows azure
@@ -29,5 +29,10 @@ Quest'anno sono stato selezionato per 2 sessioni *theater*. Se partecipate a Mic
     Descriver&ograve; nuove tecniche basate su AI per generare e migliorare contenuti audio/video, derivate dagli esperimenti condotti dal <a href="https://www.deltatre.com" target="_blank">team dell'Innovation Lab di Deltatre</a>. Partendo da un po' di teoria di base, vedremo codice, modelli e qualche demo pratica su alcuni nuovi approcci di Deep Learning per creare video *slow motion*, aumentare qualit&agrave;/risoluzione, applicare style-transfer, riconoscere e tracciare oggetti, facce, persone.
 
 Orario e luogo delle sessioni non &egrave; ancora stato definito, ma appena sar&agrave; disponibile, lo condivider&ograve; qui.
+
+AGGIORNAMENTO 01/11/2019:
+
+* **Applied Deep Learning: new kind of multimedia content** sar&agrave; il 4 novembre, h14.15-14.35, The Hub: Theater 10
+* **Sport actions recognition in video using Deep Learning at scale** sar&agrave; il 7 novembre, h15.05-15.25, The Hub: Theater 10
 
 Ci vediamo ad Ignite.
