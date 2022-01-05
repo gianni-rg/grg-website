@@ -4,7 +4,7 @@ ShowInNavBar: false
 ---
 # Chi sono
 
-Io sono Gianni Rosa Gallina, un Senior Software Engineer italiano, proprietario e gestore di questo blog <a href="http://gianni.rosagallina.com">http://gianni.rosagallina.com</a> e di tutti i dati personali associati ad esso.
+Io sono Gianni Rosa Gallina, un Senior Software Engineer italiano, proprietario e gestore di questo blog <a href="https://gianni.rosagallina.com">https://gianni.rosagallina.com</a> e di tutti i dati personali associati ad esso.
 
 Tengo molto alla privacy dei miei utenti e cerco di fare il meglio che posso per proteggerla. In ogni caso, se aveste dubbi o problemi relativi a questi termini sulla privacy, sentitevi liberi di contattarmi a [giannishub@hotmail.com](mailto:giannishub@hotmail.com).
 
