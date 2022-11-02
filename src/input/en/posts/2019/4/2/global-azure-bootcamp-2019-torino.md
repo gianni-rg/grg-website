@@ -10,7 +10,7 @@ Tags:
 - community
 - machine learning
 - ai
-- eventi
+- events
 TranslatedRefs: it/post/2019/4/2/global-azure-bootcamp-2019-torino.md
 DisqusId: 3A8EA32445534B6F8384DD9D894BCCB9CCE4450BBFA8457EA623E330D4337F7F
 ---
