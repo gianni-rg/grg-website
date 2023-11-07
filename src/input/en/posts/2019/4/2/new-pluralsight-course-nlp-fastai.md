@@ -2,7 +2,7 @@
 Title: New Pluralsight course, Deep Learning NLP with PyTorch and fastai
 Published: 2019-04-02 14:30:00
 Language: en
-Description: I'm very happy to announce that, after many months of work, my new Pluralsight course has been published: Getting Started with NLP Deep Learning Using PyTorch and fastai.
+Description: I'm very happy to announce that, after many months of work, my new Pluralsight course has been published -  Getting Started with NLP Deep Learning Using PyTorch and fastai.
 Image: /assets/images/ps-fastai-course-header.png
 Tags:
 - machine learning

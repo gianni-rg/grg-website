@@ -4,7 +4,7 @@ ShowInNavBar: false
 ---
 # Who I am
 
-I am Gianni Rosa Gallina, an Italian Senior Software Engineer, owner and manager of this blog <a href="http://gianni.rosagallina.com">http://gianni.rosagallina.com</a> and all the personal data associated with it.
+I am Gianni Rosa Gallina, an Italian Senior Software Engineer, owner and manager of this blog <a href="https://gianni.rosagallina.com">https://gianni.rosagallina.com</a> and all the personal data associated with it.
 
 I care about the privacy of my users and I try to do my best to protect it. Anyway, if you have any privacy related problems or you do want to ask clarifications on this privacy policy, feel free to contact me at [giannishub@hotmail.com](mailto:giannishub@hotmail.com).
 

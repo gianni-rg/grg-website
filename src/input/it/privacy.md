@@ -4,7 +4,7 @@ ShowInNavBar: false
 ---
 # Chi sono
 
-Io sono Gianni Rosa Gallina, un Senior Software Engineer italiano, proprietario e gestore di questo blog <a href="http://gianni.rosagallina.com">http://gianni.rosagallina.com</a> e di tutti i dati personali associati ad esso.
+Io sono Gianni Rosa Gallina, un Senior Software Engineer italiano, proprietario e gestore di questo blog <a href="https://gianni.rosagallina.com">https://gianni.rosagallina.com</a> e di tutti i dati personali associati ad esso.
 
 Tengo molto alla privacy dei miei utenti e cerco di fare il meglio che posso per proteggerla. In ogni caso, se aveste dubbi o problemi relativi a questi termini sulla privacy, sentitevi liberi di contattarmi a [giannishub@hotmail.com](mailto:giannishub@hotmail.com).
 
@@ -76,7 +76,7 @@ I vostri diritti sui vostri dati personali includono:
 
 # Dove invio i vostri dati
 
-I commenti dei visitaori potrbbero essere oggetto di servizi automatici per filtare spam e contenuti non appropriati.
+I commenti dei visitatori potrbbero essere oggetto di servizi automatici per filtare spam e contenuti non appropriati.
 
 Come gi&agrave; riportato precedentemente, questo sito usa servizi di terze parti come Disqus (commenti) e Arvixe (web hosting) per offrire i servizi. Queste aziende hanno sede al di fuori dell'UE, ma sono servizi compatibili con GDPR, per cui i vostri dati sono sicuri anche al di fuori della UE.
 
