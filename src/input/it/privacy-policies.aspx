@@ -185,7 +185,7 @@
 <li>Richiedere la portabilità dei vostri dati</li>
 </ul>
 <h1 id="dove-invio-i-vostri-dati">Dove invio i vostri dati</h1>
-<p>I commenti dei visitaori potrbbero essere oggetto di servizi automatici per filtare spam e contenuti non appropriati.</p>
+<p>I commenti dei visitatori potrbbero essere oggetto di servizi automatici per filtare spam e contenuti non appropriati.</p>
 <p>Come già riportato precedentemente, questo sito usa servizi di terze parti come Disqus (commenti) e Arvixe (web hosting) per offrire i servizi. Queste aziende hanno sede al di fuori dell'UE, ma sono servizi compatibili con GDPR, per cui i vostri dati sono sicuri anche al di fuori della UE.</p>
 <h1 id="informazioni-di-contatto">Informazioni di contatto</h1>
 <p>In caso di qualunque problema in merito ai dati personali, potete contattare me, Gianni Rosa Gallina, e cercherò di aiutarvi nel risolvere la cosa. Potete contattarmi via e-mail: <a href="mailto:giannishub&#64;hotmail.com">giannishub&#64;hotmail.com</a></p>

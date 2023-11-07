@@ -76,7 +76,7 @@ I vostri diritti sui vostri dati personali includono:
 
 # Dove invio i vostri dati
 
-I commenti dei visitaori potrbbero essere oggetto di servizi automatici per filtare spam e contenuti non appropriati.
+I commenti dei visitatori potrbbero essere oggetto di servizi automatici per filtare spam e contenuti non appropriati.
 
 Come gi&agrave; riportato precedentemente, questo sito usa servizi di terze parti come Disqus (commenti) e Arvixe (web hosting) per offrire i servizi. Queste aziende hanno sede al di fuori dell'UE, ma sono servizi compatibili con GDPR, per cui i vostri dati sono sicuri anche al di fuori della UE.
 
