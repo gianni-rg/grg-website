@@ -20,7 +20,7 @@ Here's the agenda:
 - **State of No-Code Machine Learning Platforms & OpenAI** - [Antimo Musone](https://www.linkedin.com/in/antimo-musone/)
 - **K3ai: Intelligenza Artificiale a distanza di un click** - [Alessandro Festa](https://www.linkedin.com/in/alfweb/)
 - **Creating a photorealistic avatar speaking any sentence starting from a written text input** - [Sebastiano Galazzo](https://www.linkedin.com/in/sebastianogalazzo/)
-- **Discussion Panel** - Alessandro Festa, Sebastiano Galazzo, [Clemente Giorio](https://www.linkedin.com/in/clemente-giorio-03a61811/), Antimo Musone, [Gianni Rosa Gallina](https://www.linkedin.com/in/gianni-rosa-gallina-b206a821/)
+- **Discussion Panel** - Alessandro Festa, Sebastiano Galazzo, [Clemente Giorio](https://www.linkedin.com/in/clemente-giorio-03a61811/), Antimo Musone, [Gianni Rosa Gallina](https://www.linkedin.com/in/gianni-rosa-gallina/)
 
 If you are interested, please <a href="https://www.eventbrite.it/e/biglietti-global-ai-bootcamp-torino-2021-italy-136011170071" target="_blank">register here</a>.
 

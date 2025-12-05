@@ -18,7 +18,7 @@ The **Global AI Developer Days Torino 2022** will take place on **October 28th, 
 
 Agenda of the day (all sessions will be in Italian):
 
-- 9:00 --> 09:30 **Keynote** ([Clemente Giorio](https://www.linkedin.com/in/clemente-giorio-03a61811/) - Deltatre , [Gianni Rosa Gallina](https://www.linkedin.com/in/gianni-rosa-gallina-b206a821/) - Deltatre, [F. D'Albenzio](https://www.linkedin.com/in/federico-d%E2%80%99albenzio-a33356183/) - Talent Garden)
+- 9:00 --> 09:30 **Keynote** ([Clemente Giorio](https://www.linkedin.com/in/clemente-giorio-03a61811/) - Deltatre , [Gianni Rosa Gallina](https://www.linkedin.com/in/gianni-rosa-gallina/) - Deltatre, [F. D'Albenzio](https://www.linkedin.com/in/federico-d%E2%80%99albenzio-a33356183/) - Talent Garden)
 - 9:30 --> 10:30 **Alla scoperta di OpenAI** ([Antimo Musone](https://www.linkedin.com/in/antimo-musone/) - Executive Manager @ EY)
 - 10:30 --> 11:00 *Coffee Networking*
 - 11:00 --> 12:00 **AI devices in the EDGE** ([Marco Dal Pino](https://www.linkedin.com/in/marcodalpino/) - Technology Consultant @ Microsoft)

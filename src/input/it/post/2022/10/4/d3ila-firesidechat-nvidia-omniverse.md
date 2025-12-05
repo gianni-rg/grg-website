@@ -13,7 +13,7 @@ Tags:
 TranslatedRefs: en/posts/2022/10/4/d3ila-firesidechat-nvidia-omniverse.md
 DisqusId: 5C299AFB20E7478BBEF-DFF951C18649CAEFC378ABB94DC97B9-F77FB13AA444
 ---
-Il **13 ottobre 2022, dalle 18.30**, unitevi a **[me](https://www.linkedin.com/in/gianni-rosa-gallina-b206a821/) e [Clemente Giorio](https://www.linkedin.com/in/clemente-giorio-03a61811/)** nel nuovo episodio della serie *Deltatre Innovation Lab Fireside chat*. Ospitiamo **<a href="https://www.linkedin.com/in/marioviviani/" target="_blank">Mario Viviani</a>** di <a href="https://www.nvidia.com/" target="_blank">NVIDIA</a> con la sessione **Building Tools for the Metaverse with NVIDIA Omniverse**.
+Il **13 ottobre 2022, dalle 18.30**, unitevi a **[me](https://www.linkedin.com/in/gianni-rosa-gallina/) e [Clemente Giorio](https://www.linkedin.com/in/clemente-giorio-03a61811/)** nel nuovo episodio della serie *Deltatre Innovation Lab Fireside chat*. Ospitiamo **<a href="https://www.linkedin.com/in/marioviviani/" target="_blank">Mario Viviani</a>** di <a href="https://www.nvidia.com/" target="_blank">NVIDIA</a> con la sessione **Building Tools for the Metaverse with NVIDIA Omniverse**.
 
 Parleremo di come gli sviluppatori possono allineare Omniverse al loro modello di business e sviluppare strumenti per i mondi virtuali di oggi e di domani:
 

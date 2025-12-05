@@ -64,7 +64,7 @@ Pipelines["BlogPosts_it"].Replace("RelativeFilePath",
                     return bool.Parse(Settings[BlogKeys.IncludeDateInPostPath].ToString())
                         ? $"it/{((Dictionary<string,Dictionary<string,string>>)Settings[BlogKeys.LocalizedResources])["it"]["PostsPath"]}/{published:yyyy}/{published:MM}/{published:dd}/{fileName}"
                         : $"it/{((Dictionary<string,Dictionary<string,string>>)Settings[BlogKeys.LocalizedResources])["it"]["PostsPath"]}/{fileName}";
-                }));                
+                }));
 
 
 Pipelines.InsertBefore("ValidateLinks_en","AddPostsMetaAndSearch_en",
